@@ -1,0 +1,14 @@
+package com.creative.dao;
+
+import com.creative.model.UserPost;
+
+public class UserPostDAOImpl implements UserPostDAO{
+
+	@Override
+	public void savePostUser(UserPost userPost) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}

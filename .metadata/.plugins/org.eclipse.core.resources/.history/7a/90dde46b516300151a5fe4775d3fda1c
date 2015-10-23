@@ -1,0 +1,24 @@
+package com.creative.dao;
+
+import org.hibernate.SessionFactory;
+
+import com.creative.util.HibernateUtil;
+
+public class InterestDAO {
+	SessionFactory sessionFactory=HibernateUtil.getSessionFactory();
+	public InterestDAO(){
+		
+	}
+	public List<Interest> getStudents()
+	 
+	{
+	 
+	Session s=sessionFactory.openSession();
+	 
+	List<Student> students= s.createCriteria(Student.class).list();
+	 
+	s.close();
+	return students;
+	 
+	}
+}

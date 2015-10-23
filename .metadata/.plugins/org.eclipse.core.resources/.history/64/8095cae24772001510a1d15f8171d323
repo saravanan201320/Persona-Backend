@@ -1,0 +1,13 @@
+package com.creative.service;
+
+import com.creative.model.UserPost;
+
+public class UserPostServiceImpl implements UserPostService {
+
+	@Override
+	public void saveUserPost(UserPost userPost) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

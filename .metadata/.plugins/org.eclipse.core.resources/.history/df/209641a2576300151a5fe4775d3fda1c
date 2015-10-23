@@ -1,0 +1,5 @@
+package com.creative.util;
+
+public class SimpleCORSFilter {
+
+}

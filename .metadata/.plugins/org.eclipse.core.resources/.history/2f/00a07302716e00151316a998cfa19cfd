@@ -1,0 +1,69 @@
+package com.creative.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.creative.dao.UserDAO;
+import com.creative.dao.UserInterestDAO;
+import com.creative.model.User;
+import com.creative.model.UserInterest;
+@Service
+public class UserServiceImpl implements UserService {
+
+	@Autowired
+	private UserDAO userDAO;
+	private UserInterestDAO userInterestDAO;
+
+	@Override
+	public int getUsers(String emailId, String password) {
+		List<User> users = userDAO.getUsers();
+		for(User user: users){
+			if(user.getUserDetails().getEmailId().equals(emailId) && user.getPassword().equals(password)){
+				return user.getUserID();
+			}
+		}
+		return 0;
+	}
+	
+	@Override
+	public String getUserPwd(String emailId){
+		List<User> users = userDAO.getUsers();
+		for(User user: users){
+			if(user.getUserDetails().getEmailId().equals(emailId)){
+				return user.getPassword();
+			}
+		}
+		return null;
+	}
+
+	@Override
+	public void saveUser(User user) {
+
+		userDAO.saveUser(user);
+	}
+	
+	@Override
+	public String getUserDetails(int userID){
+		List<User> users = userDAO.getUsers();
+		for(User user: users){
+			if(user.getUserID() == userID){
+				return user.getfName()+" "+user.getlName();
+			}
+		}
+		return null;
+	}
+	
+	@Override
+	public List<UserInterest> getUserInterests(int userID){
+		List<UserInterest> users = userInterestDAO.getUserInterests(userID);
+		for(User user: users){
+			if(user.getUserID() == userID){
+				return user.getfName()+" "+user.getlName();
+			}
+		}
+		return null;
+	}
+
+}

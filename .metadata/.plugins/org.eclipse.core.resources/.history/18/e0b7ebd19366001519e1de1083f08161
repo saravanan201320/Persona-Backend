@@ -1,0 +1,5 @@
+package com.creative.dao;
+
+public interface UserDAO {
+
+}

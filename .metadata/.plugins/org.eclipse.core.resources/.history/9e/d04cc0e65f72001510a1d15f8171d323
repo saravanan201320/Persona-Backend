@@ -1,0 +1,9 @@
+package com.creative.service;
+
+import com.creative.model.UserPost;
+
+public interface UserPostService {
+	public void saveUserPost(UserPost userPost);
+
+	public String getUserPosts();
+}

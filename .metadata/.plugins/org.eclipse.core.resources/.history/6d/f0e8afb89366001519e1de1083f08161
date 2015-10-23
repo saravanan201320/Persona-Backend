@@ -1,0 +1,22 @@
+package com.creative.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.creative.dao.InterestDAO;
+import com.creative.model.Interest;
+import com.creative.model.User;
+
+public class UserServiceImpl implements UserService{
+
+	@Autowired
+    private InterestDAO interestDao;
+	public List<User> getInterests() {
+		
+		return interestDao.getUsers();
+	}
+
+	
+
+}

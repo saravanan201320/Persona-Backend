@@ -1,0 +1,61 @@
+package com.creative.service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.creative.model.User;
+import com.creative.model.UserDetails;
+import com.creative.model.UserInterest;
+
+@RestController
+@RequestMapping("/service")
+public class UserController {
+	@Autowired
+	private UserService userService;
+    
+    @RequestMapping(value="/saveUser", method=RequestMethod.POST)
+    public @ResponseBody String saveUser(@RequestBody User user,@RequestParam("interestID") List interestID) {
+//    	StringBuilder reponseData = new StringBuilder();
+		/*reponseData.append("Name: "+user.getfName()+" ");
+		reponseData.append("Location: "+user.getlName()+" ");
+		reponseData.append("Phone: "+user.getPassword());*/
+    	List<UserInterest> userInterestList=new ArrayList<UserInterest>();
+    	for(Object interest:interestID)
+    	{
+    		UserInterest userInterest= new UserInterest();
+    		userInterest.setInterestId(Integer.parseInt(interest.toString()));
+    		userInterestList.add(userInterest);
+    		
+    	}
+    	System.out.println("interestID---->"+interestID);
+    	System.out.println("Name"+user.getfName());
+    	System.out.println("Name"+user.getlName());
+    	System.out.println("PWD"+user.getPassword());
+    	
+    	UserDetails userDetails=user.getUserDetails();
+    	userDetails.setUser(user);
+    	user.setUserDetails(userDetails);
+    	/*UserDetails  userDetails=user.getUserDetails();
+    	userDetails.setUser(user);*/
+    	user.setUserInterest(userInterestList);
+    	userService.saveUser(user);
+		return null;
+    }
+     
+//    @RequestMapping(value="/interest", method=RequestMethod.GET)
+//    public User user(HttpServletRequest request) {
+//        if(request.getParameter("category")!=null)
+//        {
+//        return interestService.getInterest(Integer.parseInt(request.getParameter("category")));
+//        }
+//        return null;
+//    }
+}

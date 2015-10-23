@@ -1,0 +1,5 @@
+package com.creative.model;
+
+public class UpdateDetails {
+
+}

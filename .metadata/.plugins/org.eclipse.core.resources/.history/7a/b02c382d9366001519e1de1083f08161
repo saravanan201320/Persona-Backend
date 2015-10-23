@@ -1,0 +1,10 @@
+package com.creative.service;
+
+import java.util.List;
+
+
+import com.creative.model.User;
+
+public interface UserService {
+	public List<User> getInterests();
+}

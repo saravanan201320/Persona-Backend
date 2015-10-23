@@ -1,0 +1,52 @@
+package com.creative.service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.creative.model.Interest;
+import com.creative.model.UserInterest;
+import com.google.gson.Gson;
+
+@RestController
+@RequestMapping("/service")
+public class MemberListController {
+	@Autowired
+	private InterestService interestService;
+	@Autowired
+	private UserService userService;
+	
+	@RequestMapping(value="/memberList", method=RequestMethod.GET)
+	public @ResponseBody List<String> userLists(@RequestParam("category") String category) {
+		//List<UserInterest> userList=null;
+		List<String> userList1=new ArrayList<String>();
+		
+    	List<Interest> interestList=interestService.getInterests(category);
+    	//User user=userService.getUser(userId);
+    	
+    	for(Interest interest:interestList){
+    		
+    		System.out.println("interestID--------"+interest.getInterestId());
+    		List<UserInterest> userList=userService.getUserID(interest.getInterestId());
+    		for(UserInterest userInterest:userList){
+    			userList1.add(userInterest.getUser().getfName() + userInterest.getUser().getlName());
+    		}
+    		//System.out.println("userList--------"+userList);
+    		//userList1.addAll( userService.getUserID(interest.getInterestId())); 
+    		
+    		//System.out.println("userList1--------"+userList1);
+    	}
+    	
+    	//System.out.println("userList1--------"+userList1);
+    	
+    	return userList1; 
+        
+    }
+
+}

@@ -1,0 +1,178 @@
+package com.creative.model;
+
+import java.sql.Date;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
+import javax.persistence.Table;
+
+@Entity
+@Table
+public class UserDetails {
+	@Id
+	@GeneratedValue
+	@Column
+	private int userDetailsId;
+	@Column
+	private String emailId;
+	@Column
+	private int contactNum;
+	@Column
+	private Date dob;
+	@Column
+	private String gender;
+	private String addressLine1;
+	private String addressLine2;
+	private String city;
+	private String state;
+	private String country;
+	private int zipCode;
+
+	@Column
+	private Date createdTS;
+	@Column
+	private String createdBy;
+	@Column
+	private Date updatedTS;
+	@Column
+	private String updatedBy;
+	@OneToOne(cascade=CascadeType.ALL)
+	@JoinColumn(name="user_id")
+    private User user;
+	public int getUserDetailsId() {
+		return userDetailsId;
+	}
+
+	public void setUserDetailsId(int userDetailsId) {
+		this.userDetailsId = userDetailsId;
+	}
+
+	public String getEmailId() {
+		return emailId;
+	}
+
+	public void setEmailId(String emailId) {
+		this.emailId = emailId;
+	}
+
+	public int getContactNum() {
+		return contactNum;
+	}
+
+	public void setContactNum(int contactNum) {
+		this.contactNum = contactNum;
+	}
+
+	public Date getDob() {
+		return dob;
+	}
+
+	public void setDob(Date dob) {
+		this.dob = dob;
+	}
+
+	public String getGender() {
+		return gender;
+	}
+
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+	
+	
+
+	public String getAddressLine1() {
+		return addressLine1;
+	}
+
+	public void setAddressLine1(String addressLine1) {
+		this.addressLine1 = addressLine1;
+	}
+
+	public String getAddressLine2() {
+		return addressLine2;
+	}
+
+	public void setAddressLine2(String addressLine2) {
+		this.addressLine2 = addressLine2;
+	}
+
+	public String getCity() {
+		return city;
+	}
+
+	public void setCity(String city) {
+		this.city = city;
+	}
+
+	public String getState() {
+		return state;
+	}
+
+	public void setState(String state) {
+		this.state = state;
+	}
+
+	public String getCountry() {
+		return country;
+	}
+
+	public void setCountry(String country) {
+		this.country = country;
+	}
+
+	public int getZipCode() {
+		return zipCode;
+	}
+
+	public void setZipCode(int zipCode) {
+		this.zipCode = zipCode;
+	}
+
+	public Date getCreatedTS() {
+		return createdTS;
+	}
+
+	public void setCreatedTS(Date createdTS) {
+		this.createdTS = createdTS;
+	}
+
+	public String getCreatedBy() {
+		return createdBy;
+	}
+
+	public void setCreatedBy(String createdBy) {
+		this.createdBy = createdBy;
+	}
+
+	public Date getUpdatedTS() {
+		return updatedTS;
+	}
+
+	public void setUpdatedTS(Date updatedTS) {
+		this.updatedTS = updatedTS;
+	}
+
+	public String getUpdatedBy() {
+		return updatedBy;
+	}
+
+	public void setUpdatedBy(String updatedBy) {
+		this.updatedBy = updatedBy;
+	}
+
+	public User getUser() {
+		return user;
+	}
+
+	public void setUser(User user) {
+		this.user = user;
+	}
+	
+	
+}

@@ -1,0 +1,48 @@
+package com.creative.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.creative.dao.UserDAO;
+import com.creative.model.User;
+@Service
+public class UserServiceImpl implements UserService {
+
+	@Autowired
+	private UserDAO userDAO;
+
+	@Override
+	public Boolean getUsers(String emailId, String password) {
+		List<User> users = userDAO.getUsers();
+		for(User user: users){
+			if(user.getUserDetails().getEmailId().equals(emailId) && user.getPassword().equals(password)){
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	@Override
+	public String getUserPwd(String emailId){
+		List<User> users = userDAO.getUsers();
+		StringBuilder json=new StringBuilder("{");
+		for(User user: users){
+			if(user.getUserDetails().getEmailId().equals(emailId)){
+				json.append("password:"+user.getPassword());
+				
+			}
+		}
+		json.append("}");
+		return json.toString();
+	}
+	
+
+	@Override
+	public void saveUser(User user) {
+
+		userDAO.saveUser(user);
+	}
+
+}

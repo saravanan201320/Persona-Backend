@@ -1,0 +1,31 @@
+package com.creative.dao;
+
+import java.util.List;
+
+import org.hibernate.Criteria;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.criterion.Restrictions;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.creative.model.Interest;
+import com.creative.model.User;
+import com.creative.model.UserInterest;
+
+@Repository
+public class UserInterestDAOImpl implements UserInterestDAO{
+	@Autowired
+	private SessionFactory sessionFactory;
+
+	public Session getSession() {
+		return sessionFactory.openSession();
+	}
+
+	@Override
+	public List<UserInterest> getUserInterests() {
+		List<UserInterest> userInterests = getSession().createCriteria(UserInterest.class).list();
+	    getSession().close();
+	    return userInterests;
+	}
+}

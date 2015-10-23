@@ -1,0 +1,24 @@
+package com.creative.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.creative.model.UserPost;
+
+@RestController
+@RequestMapping("/service")
+public class UserPostController {
+	@Autowired
+	private UserPostService userPostService;
+	
+	 @RequestMapping(value="/postAd", method=RequestMethod.POST)
+	    public @ResponseBody String saveUserPost(@RequestBody UserPost userPost) {
+		 userPostService.saveUserPost(userPost);
+		return null;
+	    }
+	
+}

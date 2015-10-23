@@ -1,0 +1,8 @@
+package com.creative.util;
+
+@Configuration
+@EnableWebMvc
+@ComponentScan(basePackages = "com.creative.service")
+public class AppConfig {
+
+}

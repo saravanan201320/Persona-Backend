@@ -1,0 +1,17 @@
+com\creative\util\SimpleCORSFilter.class
+com\creative\util\HibernateConfiguration.class
+com\creative\model\UserDetails.class
+com\creative\service\InterestService.class
+com\creative\model\User.class
+com\creative\model\Pricing.class
+com\creative\model\Address.class
+com\creative\service\InterestController.class
+com\creative\service\InterestServiceImpl.class
+com\creative\model\Interest.class
+com\creative\dao\InterestDAOImpl.class
+com\creative\dao\InterestDAO.class
+com\creative\model\UserInterest.class
+com\creative\model\UserPost.class
+com\creative\util\AppConfig.class
+com\creative\util\HibernateUtil.class
+com\creative\util\AppInitializer.class

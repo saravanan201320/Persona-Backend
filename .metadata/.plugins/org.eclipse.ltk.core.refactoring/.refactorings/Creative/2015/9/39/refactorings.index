@@ -1,0 +1,12 @@
+1443167278754	Copy packages
+1443168154716	Move 'web.xml' to 'webapp'
+1443168161844	Move 'web.xml' to 'WEB-INF'
+1443168166062	Copy file
+1443168171646	Move 'web.xml' to 'WEB-INF'
+1443168831088	Copy file
+1443173186259	Delete element
+1443176964834	Copy file
+1443179624780	Delete elements
+1443179655245	Rename type 'InterestDAO'
+1443179921637	Rename type 'InterestService'
+1443183361280	Rename resource 'interests.html'

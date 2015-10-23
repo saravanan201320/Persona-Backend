@@ -1,0 +1,5 @@
+package com.creative.service;
+
+public class InterestServiceImpl implements InterestService {
+
+}

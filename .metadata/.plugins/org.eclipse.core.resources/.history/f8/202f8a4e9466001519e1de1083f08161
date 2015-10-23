@@ -1,0 +1,31 @@
+package com.creative.dao;
+
+import java.util.List;
+
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.creative.model.Interest;
+import com.creative.model.User;
+
+public class UserDAOImpl implements UserDAO{
+	
+	@Autowired
+    private SessionFactory sessionFactory;
+ 
+    
+
+	@SuppressWarnings("unchecked")
+	public List<User> getUsers()
+
+	{
+
+       List<User> users = sessionFactory.openSession().createCriteria(Interest.class).list();
+       sessionFactory.openSession().close();
+       return interests;
+
+	}
+
+	
+
+}

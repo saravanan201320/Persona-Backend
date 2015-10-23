@@ -1,0 +1,18 @@
+package com.creative.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.creative.dao.UserPostDAO;
+import com.creative.model.UserPost;
+
+public class UserPostServiceImpl implements UserPostService {
+	@Autowired
+	private UserPostDAO userPostDAO;
+
+	@Override
+	public void saveUserPost(UserPost userPost) {
+		// TODO Auto-generated method stub
+		userPostDAO.savePostUser(userPost);
+	}
+
+}
