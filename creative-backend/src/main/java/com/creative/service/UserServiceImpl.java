@@ -9,6 +9,7 @@ import com.creative.dao.UserDAO;
 import com.creative.dao.UserInterestDAO;
 import com.creative.model.Interest;
 import com.creative.model.User;
+import com.creative.model.UserImage;
 import com.creative.model.UserInterest;
 @Service
 public class UserServiceImpl implements UserService {
@@ -76,5 +77,20 @@ public class UserServiceImpl implements UserService {
 	public User getUser(int userId) {
 		return userDAO.getUser(userId);
 	}
+
+	@Override
+	public void saveImage(UserImage userImage) {
+		// TODO Auto-generated method stub
+		userDAO.saveImage(userImage);
+	}
+
+	@Override
+	public List<UserImage> getProfileImage() {
+		// TODO Auto-generated method stub
+		return userDAO.getProfileImage();
+	}
+
+	
+	
 
 }

@@ -1,9 +1,0 @@
-package com.creative.dao;
-
-import java.util.List;
-
-import com.creative.model.Interest;
-
-public interface UserDAO {
-	public List<User> getUsers();
-}

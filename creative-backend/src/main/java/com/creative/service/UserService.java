@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.creative.model.Interest;
 import com.creative.model.User;
+import com.creative.model.UserImage;
 import com.creative.model.UserInterest;
 
 public interface UserService {
@@ -14,4 +15,6 @@ public interface UserService {
 	public List<UserInterest> getUserInterests(int userID);
 	public List<UserInterest> getUserID(int interest);
 	public User getUser(int userId);
+	public void saveImage(UserImage userImage);
+	public List<UserImage> getProfileImage();
 }

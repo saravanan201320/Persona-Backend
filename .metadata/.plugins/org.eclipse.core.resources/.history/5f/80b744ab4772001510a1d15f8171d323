@@ -1,6 +1,0 @@
-package com.creative.dao;
-
-public class UserPostDAOImpl implements UserPostDAO{
-	
-
-}

@@ -33,6 +33,8 @@ public class User {
     private UserDetails userDetails;
     @OneToMany(fetch=FetchType.EAGER,cascade=CascadeType.ALL,mappedBy="user")
     private List<UserInterest> userInterest;
+    @OneToOne(fetch=FetchType.EAGER,cascade=CascadeType.ALL,mappedBy="user")
+    private UserImage userImage;
 	
 	
 	@Embedded
@@ -103,4 +105,14 @@ public class User {
 	public void setUserStatus(String userStatus) {
 		this.userStatus = "Active";
 	}
+
+	public UserImage getUserImage() {
+		return userImage;
+	}
+
+	public void setUserImage(UserImage userImage) {
+		this.userImage = userImage;
+	}
+	
+	
 }

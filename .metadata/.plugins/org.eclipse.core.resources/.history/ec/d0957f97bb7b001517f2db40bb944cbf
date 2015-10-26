@@ -1,0 +1,6 @@
+package com.creative.model;
+
+public class UserImage {
+	private Integer imageID;
+	private byte[] profileImage;
+}

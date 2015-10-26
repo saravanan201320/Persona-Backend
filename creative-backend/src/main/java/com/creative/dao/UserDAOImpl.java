@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.creative.model.User;
+import com.creative.model.UserImage;
 
 @Repository
 public class UserDAOImpl implements UserDAO{
@@ -40,4 +41,22 @@ public class UserDAOImpl implements UserDAO{
 		 List<User> userList=getSession().createQuery("from User where userID=:userId").setParameter("userId", userId).list();
 		 return userList.get(0);
 	}
+
+	@Override
+	public void saveImage(UserImage userImage) {
+		// TODO Auto-generated method stub
+		getSession().saveOrUpdate(userImage);
+		getSession().close();
+	}
+
+	@Override
+	public List<UserImage> getProfileImage() {
+		// TODO Auto-generated method stub
+		List<UserImage> userProfileImage = getSession().createCriteria(UserImage.class).list();
+	       getSession().close();
+	       
+		return userProfileImage;
+	}
+
+	
 }

@@ -1,6 +1,0 @@
-package com.creative.model;
-
-@Embeddable
-public class UpdateDetails {
-
-}

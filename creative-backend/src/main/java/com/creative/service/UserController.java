@@ -1,7 +1,7 @@
 package com.creative.service;
 
 
-import java.io.InputStream;
+import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -9,6 +9,7 @@ import java.util.Calendar;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -21,6 +22,7 @@ import com.creative.model.Interest;
 import com.creative.model.UpdateDetails;
 import com.creative.model.User;
 import com.creative.model.UserDetails;
+import com.creative.model.UserImage;
 import com.creative.model.UserInterest;
 
 @RestController
@@ -31,7 +33,10 @@ public class UserController {
 	@Autowired
 	private InterestService interestService;
     @RequestMapping(value="/saveUser", method=RequestMethod.POST)
-    public @ResponseBody String saveUser(@RequestBody User user,@RequestParam("interestID") List interestID) {
+    public @ResponseBody String saveUser(@RequestParam("file") MultipartFile file, @RequestParam("interestID") List interestID,@RequestBody User user) throws IOException {
+    	System.out.println(user);
+    	System.out.println(interestID);   	
+    	
     	DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
     	Calendar cal = Calendar.getInstance();
     	UpdateDetails updateDetails=new UpdateDetails();
@@ -48,12 +53,20 @@ public class UserController {
     		userInterestList.add(userInterest);
     		
     	}
+    	byte[] bytes;
+    	UserImage userImage = new UserImage();
+        if (!file.isEmpty()) {
+             bytes = file.getBytes();
+             userImage.setProfileImage(bytes);
+               
+              
+        }
     	 UserDetails userDetails=user.getUserDetails();
     	userDetails.setUser(user);
     	userDetails.setUpdateDetails(updateDetails);
     	user.setUserDetails(userDetails);
     	
-    	
+    	user.setUserImage(userImage);
     	user.setUpdateDetails(updateDetails);
     
     	user.setUserInterest(userInterestList);
@@ -80,14 +93,36 @@ public class UserController {
     }
     
     
-    @RequestMapping(value="/uploadImage", method=RequestMethod.POST)
-    public @ResponseBody String uploadImage(@RequestParam("file") MultipartFile file) {
-    	//System.out.println("----------->" +userService.getUsers(emailId, password));
-    	
-    		System.out.println(file);
-    	
-       return null;
+    
+	@RequestMapping(value="/uploadImage", method=RequestMethod.POST)
+    public void upload(@RequestParam("file") MultipartFile file, @RequestParam("username") String username) throws IOException {
+    	byte[] bytes;
+    	UserImage userImage = new UserImage();
+        if (!file.isEmpty()) {
+             bytes = file.getBytes();
+             userImage.setProfileImage(bytes);
+             userService.saveImage(userImage);    
+              
+        }
+
+        System.out.println(String.format("receive %s from %s", file.getOriginalFilename(),username));
     }
+	
+	
+	@RequestMapping(value="/getProfileImage", method=RequestMethod.GET,produces = MediaType.APPLICATION_JSON_VALUE)
+    public @ResponseBody List<UserImage> getProfileImage() {
+		
+		List<UserImage> userImageList=userService.getProfileImage();
+		List<UserImage> userImageList1=new ArrayList<UserImage>();
+		for(UserImage userImage:userImageList){
+			System.out.println(userImage.getImageID());
+			userImage.setUser(null);
+			userImageList1.add(userImage);
+			System.out.println(userImage.getProfileImage());
+		}
+		
+		return userImageList1;
+	}
     
     @RequestMapping(value="/userInterests", method=RequestMethod.GET)
     public @ResponseBody List<Interest> userinterests(@RequestParam("userID") int userID) {

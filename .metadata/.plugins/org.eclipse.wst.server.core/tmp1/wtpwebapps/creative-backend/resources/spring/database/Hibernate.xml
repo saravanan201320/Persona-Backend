@@ -21,7 +21,13 @@ class="org.springframework.orm.hibernate4.annotation.AnnotationSessionFactoryBea
     	
     <property name="annotatedClasses">
 	<list>
-		<value>com.creative.model.Interest</value>
+		<value>com.creative.model.User</value>
+		<value>com.creative.model.UserDetails</value>
+	    <value>com.creative.model.UserInterest</value>
+	    <value>com.creative.model.Interest</value>
+		<value>com.creative.model.UserPost</value>
+		<value>com.creative.model.Pricing</value>
+		<value>com.creative.model.UserImage</value>
 	</list>
     </property>
 

@@ -1,0 +1,21 @@
+package com.creative.model;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+
+public class UserImage {
+	@Id
+	@GeneratedValue
+	@Column
+	private Integer imageID;
+	@Column
+	private byte[] profileImage;
+	@ManyToOne(cascade = CascadeType.ALL)
+	@JoinColumn(name = "userID")
+	private User user;
+	
+}
