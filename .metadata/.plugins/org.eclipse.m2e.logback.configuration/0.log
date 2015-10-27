@@ -6087,3 +6087,527 @@ Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have 
 2015-10-26 18:28:45,229 [Worker-199] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
 2015-10-26 18:28:45,229 [Worker-199] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
 2015-10-26 18:28:45,243 [Worker-199] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 12:10:59,749 [Worker-221] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 12:11:07,387 [Worker-220] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 12:11:07,491 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 12:11:07,537 [Worker-220] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 12:11:07,538 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 12:11:07,538 [Worker-220] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 12:11:07,538 [Worker-220] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 12:11:07,703 [Worker-220] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 12:32:41,923 [Worker-228] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 12:32:43,891 [Worker-230] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 12:32:43,892 [Worker-230] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 12:32:43,902 [Worker-230] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 12:32:43,903 [Worker-230] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 12:32:43,903 [Worker-230] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 12:32:43,903 [Worker-230] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 12:32:43,907 [Worker-230] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 12:45:07,883 [Worker-237] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 12:45:09,940 [Worker-239] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 12:45:09,995 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 12:45:10,010 [Worker-239] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 12:45:10,011 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 12:45:10,011 [Worker-239] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 12:45:10,011 [Worker-239] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 12:45:10,018 [Worker-239] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 13:52:53,557 [Worker-257] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 13:53:02,051 [Worker-256] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 13:53:02,053 [Worker-256] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 13:53:02,062 [Worker-256] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 13:53:02,063 [Worker-256] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 13:53:02,076 [Worker-256] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 13:53:02,076 [Worker-256] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 13:53:02,256 [Worker-256] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 13:59:18,843 [Worker-254] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 13:59:20,136 [Worker-262] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 13:59:20,138 [Worker-262] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 13:59:20,151 [Worker-262] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 13:59:20,151 [Worker-262] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 13:59:20,152 [Worker-262] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 13:59:20,152 [Worker-262] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 13:59:20,164 [Worker-262] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 14:30:31,999 [Worker-266] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 14:30:32,815 [Worker-267] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 14:30:32,817 [Worker-267] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 14:30:32,828 [Worker-267] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 14:30:32,829 [Worker-267] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 14:30:32,830 [Worker-267] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 14:30:32,830 [Worker-267] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 14:30:32,835 [Worker-267] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 14:35:47,903 [Worker-267] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 14:35:49,463 [Worker-274] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 14:35:49,512 [Worker-274] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 14:35:49,549 [Worker-274] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 14:35:49,568 [Worker-274] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 14:35:49,569 [Worker-274] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 14:35:49,569 [Worker-274] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 14:35:49,634 [Worker-274] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 14:40:54,111 [Worker-279] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 14:40:56,328 [Worker-276] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 14:40:56,357 [Worker-276] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 14:40:56,369 [Worker-276] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 14:40:56,370 [Worker-276] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 14:40:56,371 [Worker-276] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 14:40:56,372 [Worker-276] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 14:40:56,379 [Worker-276] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 14:48:05,002 [Worker-285] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 14:48:07,158 [Worker-276] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 14:48:07,295 [Worker-276] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 14:48:07,305 [Worker-276] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 14:48:07,305 [Worker-276] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 14:48:07,306 [Worker-276] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 14:48:07,306 [Worker-276] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 14:48:07,325 [Worker-276] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 14:49:45,222 [Worker-282] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 14:49:46,081 [Worker-285] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 14:49:46,082 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 14:49:46,090 [Worker-285] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 14:49:46,090 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 14:49:46,091 [Worker-285] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 14:49:46,091 [Worker-285] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 14:49:46,094 [Worker-285] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 14:58:58,223 [Worker-275] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 14:58:59,113 [Worker-292] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 14:58:59,115 [Worker-292] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 14:58:59,132 [Worker-292] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 14:58:59,133 [Worker-292] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 14:58:59,134 [Worker-292] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 14:58:59,134 [Worker-292] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 14:58:59,141 [Worker-292] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:06:26,492 [Worker-292] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 15:06:27,381 [Worker-298] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:06:27,384 [Worker-298] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 15:06:27,397 [Worker-298] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:06:27,398 [Worker-298] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 15:06:27,398 [Worker-298] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 15:06:27,398 [Worker-298] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 15:06:27,405 [Worker-298] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:08:35,309 [Worker-301] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 15:08:35,794 [Worker-297] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:08:35,796 [Worker-297] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 15:08:35,808 [Worker-297] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:08:35,809 [Worker-297] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 15:08:35,809 [Worker-297] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 15:08:35,809 [Worker-297] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 15:08:35,939 [Worker-297] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:10:18,645 [Worker-275] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 15:10:19,514 [Worker-298] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:10:19,516 [Worker-298] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 15:10:19,529 [Worker-298] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:10:19,530 [Worker-298] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 15:10:19,531 [Worker-298] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 15:10:19,531 [Worker-298] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 15:10:19,538 [Worker-298] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:14:52,262 [Worker-302] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 15:14:53,139 [Worker-304] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:14:53,141 [Worker-304] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 15:14:53,153 [Worker-304] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:14:53,154 [Worker-304] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 15:14:53,154 [Worker-304] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 15:14:53,154 [Worker-304] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 15:14:53,160 [Worker-304] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:15:14,500 [Worker-302] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 15:15:15,420 [Worker-304] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:15:15,421 [Worker-304] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 15:15:15,430 [Worker-304] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:15:15,430 [Worker-304] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 15:15:15,431 [Worker-304] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 15:15:15,431 [Worker-304] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 15:15:15,435 [Worker-304] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:20:25,039 [Worker-307] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 15:20:26,419 [Worker-298] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:20:26,421 [Worker-298] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 15:20:26,459 [Worker-298] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:20:26,460 [Worker-298] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 15:20:26,460 [Worker-298] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 15:20:26,460 [Worker-298] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 15:20:27,596 [Worker-298] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:21:13,804 [Worker-302] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 15:21:14,391 [Worker-304] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:21:14,394 [Worker-304] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 15:21:14,407 [Worker-304] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:21:14,408 [Worker-304] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 15:21:14,409 [Worker-304] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 15:21:14,409 [Worker-304] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 15:21:14,417 [Worker-304] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:25:56,065 [Worker-305] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 15:25:57,629 [Worker-311] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:25:57,654 [Worker-311] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 15:25:57,667 [Worker-311] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:25:57,670 [Worker-311] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 15:25:57,670 [Worker-311] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 15:25:57,671 [Worker-311] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 15:25:57,678 [Worker-311] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:28:41,004 [Worker-306] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 15:28:41,952 [Worker-312] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:28:41,953 [Worker-312] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 15:28:41,965 [Worker-312] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:28:41,966 [Worker-312] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 15:28:41,966 [Worker-312] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 15:28:41,966 [Worker-312] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 15:28:41,971 [Worker-312] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:33:58,055 [Worker-309] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 15:33:58,749 [Worker-314] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:33:58,751 [Worker-314] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 15:33:58,765 [Worker-314] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:33:58,766 [Worker-314] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 15:33:58,767 [Worker-314] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 15:33:58,767 [Worker-314] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 15:33:58,772 [Worker-314] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:35:36,313 [Worker-311] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 15:35:37,406 [Worker-314] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:35:37,407 [Worker-314] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 15:35:37,419 [Worker-314] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:35:37,420 [Worker-314] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 15:35:37,421 [Worker-314] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 15:35:37,421 [Worker-314] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 15:35:37,426 [Worker-314] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:35:41,260 [Worker-305] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 15:35:42,615 [Worker-314] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:35:42,616 [Worker-314] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 15:35:42,627 [Worker-314] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:35:42,628 [Worker-314] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 15:35:42,629 [Worker-314] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 15:35:42,629 [Worker-314] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 15:35:42,646 [Worker-314] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:37:03,712 [Worker-314] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 15:37:04,425 [Worker-305] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:37:04,428 [Worker-305] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 15:37:04,444 [Worker-305] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:37:04,445 [Worker-305] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 15:37:04,446 [Worker-305] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 15:37:04,446 [Worker-305] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 15:37:04,457 [Worker-305] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:38:18,075 [Worker-316] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 15:38:18,760 [Worker-314] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:38:18,763 [Worker-314] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 15:38:18,776 [Worker-314] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:38:18,777 [Worker-314] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 15:38:18,777 [Worker-314] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 15:38:18,777 [Worker-314] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 15:38:18,784 [Worker-314] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:38:50,629 [Worker-313] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 15:38:51,151 [Worker-310] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:38:51,152 [Worker-310] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 15:38:51,165 [Worker-310] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:38:51,166 [Worker-310] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 15:38:51,166 [Worker-310] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 15:38:51,167 [Worker-310] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 15:38:51,173 [Worker-310] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:40:19,332 [Worker-313] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 15:40:20,328 [Worker-314] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:40:20,330 [Worker-314] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 15:40:20,343 [Worker-314] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:40:20,344 [Worker-314] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 15:40:20,344 [Worker-314] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 15:40:20,345 [Worker-314] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 15:40:20,350 [Worker-314] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:42:35,448 [Worker-319] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 15:42:36,729 [Worker-317] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:42:36,755 [Worker-317] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 15:42:36,767 [Worker-317] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:42:36,768 [Worker-317] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 15:42:36,769 [Worker-317] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 15:42:36,769 [Worker-317] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 15:42:36,774 [Worker-317] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:44:20,554 [Worker-309] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 15:44:22,535 [Worker-317] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:44:22,562 [Worker-317] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 15:44:22,580 [Worker-317] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:44:22,581 [Worker-317] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 15:44:22,581 [Worker-317] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 15:44:22,581 [Worker-317] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 15:44:22,588 [Worker-317] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:45:11,704 [Worker-317] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 15:45:12,234 [Worker-305] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:45:12,236 [Worker-305] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 15:45:12,248 [Worker-305] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:45:12,249 [Worker-305] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 15:45:12,249 [Worker-305] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 15:45:12,249 [Worker-305] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 15:45:12,254 [Worker-305] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:45:38,846 [Worker-319] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 15:45:39,909 [Worker-317] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:45:39,911 [Worker-317] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 15:45:39,926 [Worker-317] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:45:39,927 [Worker-317] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 15:45:39,927 [Worker-317] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 15:45:39,927 [Worker-317] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 15:45:39,933 [Worker-317] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:48:04,471 [Worker-317] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 15:48:05,118 [Worker-306] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:48:05,120 [Worker-306] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 15:48:05,130 [Worker-306] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:48:05,131 [Worker-306] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 15:48:05,131 [Worker-306] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 15:48:05,131 [Worker-306] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 15:48:05,136 [Worker-306] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:48:12,989 [Worker-320] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 15:48:13,520 [Worker-306] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:48:13,522 [Worker-306] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 15:48:13,535 [Worker-306] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:48:13,536 [Worker-306] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 15:48:13,537 [Worker-306] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 15:48:13,537 [Worker-306] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 15:48:13,543 [Worker-306] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:50:08,375 [Worker-309] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 15:50:08,886 [Worker-305] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:50:08,888 [Worker-305] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 15:50:08,901 [Worker-305] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:50:08,903 [Worker-305] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 15:50:08,903 [Worker-305] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 15:50:08,903 [Worker-305] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 15:50:08,910 [Worker-305] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:50:30,060 [Worker-318] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 15:50:30,837 [Worker-305] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:50:30,838 [Worker-305] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 15:50:30,849 [Worker-305] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:50:30,850 [Worker-305] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 15:50:30,850 [Worker-305] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 15:50:30,850 [Worker-305] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 15:50:30,855 [Worker-305] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:51:25,465 [Worker-305] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 15:51:26,216 [Worker-322] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:51:26,218 [Worker-322] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 15:51:26,231 [Worker-322] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:51:26,232 [Worker-322] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 15:51:26,232 [Worker-322] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 15:51:26,232 [Worker-322] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 15:51:26,241 [Worker-322] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:52:18,560 [Worker-317] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 15:52:19,060 [Worker-305] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:52:19,061 [Worker-305] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 15:52:19,073 [Worker-305] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:52:19,074 [Worker-305] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 15:52:19,075 [Worker-305] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 15:52:19,075 [Worker-305] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 15:52:19,080 [Worker-305] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:54:02,752 [Worker-324] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 15:54:03,249 [Worker-317] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:54:03,250 [Worker-317] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 15:54:03,263 [Worker-317] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:54:03,263 [Worker-317] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 15:54:03,264 [Worker-317] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 15:54:03,264 [Worker-317] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 15:54:03,269 [Worker-317] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:56:50,900 [Worker-305] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 15:56:52,102 [Worker-321] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:56:52,104 [Worker-321] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 15:56:52,116 [Worker-321] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 15:56:52,117 [Worker-321] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 15:56:52,123 [Worker-321] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 15:56:52,123 [Worker-321] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 15:56:52,129 [Worker-321] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:04:05,233 [Worker-323] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 16:04:06,857 [Worker-318] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:04:06,884 [Worker-318] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 16:04:06,895 [Worker-318] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:04:06,896 [Worker-318] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 16:04:06,897 [Worker-318] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 16:04:06,897 [Worker-318] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 16:04:06,904 [Worker-318] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:04:12,866 [Worker-321] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 16:04:13,594 [Worker-328] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:04:13,597 [Worker-328] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 16:04:13,607 [Worker-328] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:04:13,608 [Worker-328] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 16:04:13,609 [Worker-328] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 16:04:13,609 [Worker-328] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 16:04:13,617 [Worker-328] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:05:52,639 [Worker-328] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 16:05:53,241 [Worker-318] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:05:53,243 [Worker-318] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 16:05:53,257 [Worker-318] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:05:53,258 [Worker-318] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 16:05:53,258 [Worker-318] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 16:05:53,258 [Worker-318] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 16:05:53,264 [Worker-318] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:11:21,700 [Worker-331] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 16:11:23,762 [Worker-332] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:11:23,788 [Worker-332] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 16:11:23,801 [Worker-332] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:11:23,802 [Worker-332] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 16:11:23,803 [Worker-332] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 16:11:23,803 [Worker-332] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 16:11:23,811 [Worker-332] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:12:26,416 [Worker-334] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 16:12:27,498 [Worker-333] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:12:27,499 [Worker-333] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 16:12:27,512 [Worker-333] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:12:27,512 [Worker-333] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 16:12:27,513 [Worker-333] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 16:12:27,513 [Worker-333] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 16:12:27,519 [Worker-333] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:15:49,806 [Worker-327] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 16:15:51,894 [Worker-338] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:15:51,936 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 16:15:51,948 [Worker-338] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:15:51,949 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 16:15:51,949 [Worker-338] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 16:15:51,949 [Worker-338] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 16:15:51,955 [Worker-338] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:16:24,691 [Worker-341] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 16:16:25,811 [Worker-339] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:16:25,813 [Worker-339] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 16:16:25,843 [Worker-339] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:16:25,844 [Worker-339] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 16:16:25,857 [Worker-339] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 16:16:25,858 [Worker-339] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 16:16:25,864 [Worker-339] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:19:15,128 [Worker-338] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 16:19:16,570 [Worker-339] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:19:17,184 [Worker-339] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 16:19:17,195 [Worker-339] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:19:17,196 [Worker-339] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 16:19:17,197 [Worker-339] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 16:19:17,197 [Worker-339] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 16:19:17,202 [Worker-339] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:20:22,048 [Worker-338] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:20:22,093 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 16:20:22,096 [Worker-338] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:20:22,097 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 16:20:26,519 [Worker-327] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 16:20:27,262 [Worker-342] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:20:27,264 [Worker-342] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 16:20:27,873 [Worker-342] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:20:27,874 [Worker-342] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 16:20:27,874 [Worker-342] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 16:20:27,874 [Worker-342] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 16:20:27,880 [Worker-342] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:23:14,518 [Worker-330] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 16:23:15,774 [Worker-336] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:23:15,776 [Worker-336] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 16:23:15,799 [Worker-336] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:23:15,800 [Worker-336] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 16:23:15,801 [Worker-336] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 16:23:15,801 [Worker-336] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 16:23:15,813 [Worker-336] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:23:30,053 [Worker-338] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 16:23:30,811 [Worker-327] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:23:30,813 [Worker-327] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 16:23:30,825 [Worker-327] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:23:30,826 [Worker-327] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 16:23:30,827 [Worker-327] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 16:23:30,827 [Worker-327] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 16:23:30,833 [Worker-327] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:25:05,840 [Worker-342] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 16:25:06,372 [Worker-342] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:25:06,374 [Worker-342] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 16:25:06,412 [Worker-342] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:25:06,413 [Worker-342] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 16:25:06,413 [Worker-342] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 16:25:06,413 [Worker-342] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 16:25:06,420 [Worker-342] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:26:17,023 [Worker-342] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 16:26:17,873 [Worker-330] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:26:18,677 [Worker-330] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 16:26:18,691 [Worker-330] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:26:18,693 [Worker-330] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 16:26:18,693 [Worker-330] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 16:26:18,693 [Worker-330] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 16:26:18,700 [Worker-330] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:26:26,826 [Worker-337] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 16:26:27,669 [Worker-337] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:26:27,671 [Worker-337] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 16:26:27,683 [Worker-337] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:26:27,684 [Worker-337] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 16:26:27,684 [Worker-337] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 16:26:27,684 [Worker-337] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 16:26:27,690 [Worker-337] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:28:33,385 [Worker-327] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 16:28:34,679 [Worker-343] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:28:34,680 [Worker-343] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 16:28:34,697 [Worker-343] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:28:34,792 [Worker-343] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 16:28:34,792 [Worker-343] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 16:28:34,792 [Worker-343] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 16:28:34,798 [Worker-343] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:35:15,230 [Worker-342] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 16:35:16,803 [Worker-346] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:35:16,837 [Worker-346] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 16:35:16,850 [Worker-346] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:35:16,851 [Worker-346] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 16:35:16,851 [Worker-346] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 16:35:16,851 [Worker-346] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 16:35:16,858 [Worker-346] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:40:12,038 [Worker-346] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 16:40:12,789 [Worker-353] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:40:12,790 [Worker-353] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 16:40:12,804 [Worker-353] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 16:40:12,804 [Worker-353] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 16:40:12,805 [Worker-353] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 16:40:12,805 [Worker-353] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 16:40:12,810 [Worker-353] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 17:43:04,289 [Worker-363] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 17:43:21,923 [Worker-356] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 17:43:22,093 [Worker-356] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 17:43:22,115 [Worker-356] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 17:43:22,115 [Worker-356] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 17:43:22,165 [Worker-356] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 17:43:22,191 [Worker-356] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 17:43:22,275 [Worker-356] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 17:48:52,565 [Worker-370] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 17:48:55,333 [Worker-363] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 17:48:55,375 [Worker-363] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 17:48:55,386 [Worker-363] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 17:48:55,387 [Worker-363] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 17:48:55,388 [Worker-363] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 17:48:55,388 [Worker-363] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 17:48:55,394 [Worker-363] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 17:55:35,886 [Worker-375] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 17:55:39,802 [Worker-377] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 17:55:39,841 [Worker-377] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 17:55:39,959 [Worker-377] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 17:55:39,960 [Worker-377] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 17:55:39,960 [Worker-377] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 17:55:39,961 [Worker-377] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 17:55:39,968 [Worker-377] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 18:13:26,899 [Worker-384] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 18:13:27,781 [Worker-375] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 18:13:27,783 [Worker-375] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 18:13:27,811 [Worker-375] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 18:13:27,812 [Worker-375] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 18:13:27,813 [Worker-375] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 18:13:27,813 [Worker-375] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 18:13:27,819 [Worker-375] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 18:15:38,816 [Worker-381] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 18:15:39,489 [Worker-383] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 18:15:39,491 [Worker-383] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 18:15:39,503 [Worker-383] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 18:15:39,504 [Worker-383] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 18:15:39,504 [Worker-383] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 18:15:39,505 [Worker-383] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 18:15:39,510 [Worker-383] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 18:18:30,089 [Worker-383] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 18:18:30,928 [Worker-386] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 18:18:30,935 [Worker-386] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 18:18:30,950 [Worker-386] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 18:18:30,950 [Worker-386] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 18:18:30,951 [Worker-386] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 18:18:30,951 [Worker-386] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 18:18:30,958 [Worker-386] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 18:20:26,573 [Worker-381] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 18:20:27,391 [Worker-391] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 18:20:27,392 [Worker-391] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 18:20:27,414 [Worker-391] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 18:20:27,415 [Worker-391] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 18:20:27,415 [Worker-391] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 18:20:27,415 [Worker-391] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 18:20:27,422 [Worker-391] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 18:24:42,020 [Worker-394] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 18:24:43,196 [Worker-386] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 18:24:43,198 [Worker-386] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 18:24:43,211 [Worker-386] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 18:24:43,212 [Worker-386] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 18:24:43,212 [Worker-386] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 18:24:43,212 [Worker-386] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 18:24:43,218 [Worker-386] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 18:27:41,182 [Worker-389] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for creative-backend
+2015-10-27 18:27:42,222 [Worker-392] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 18:27:42,237 [Worker-392] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-10-27 18:27:42,267 [Worker-392] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-27 18:27:42,268 [Worker-392] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\saravana.sivakumar\workspace\Creative-Backend\creative-backend\src\test\resources
+2015-10-27 18:27:42,269 [Worker-392] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of creative-backend
+2015-10-27 18:27:42,269 [Worker-392] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for creative-backend
+2015-10-27 18:27:42,275 [Worker-392] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!

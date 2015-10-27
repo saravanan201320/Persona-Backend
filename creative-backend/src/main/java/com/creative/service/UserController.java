@@ -33,7 +33,7 @@ public class UserController {
 	@Autowired
 	private InterestService interestService;
     @RequestMapping(value="/saveUser", method=RequestMethod.POST)
-    public @ResponseBody String saveUser(@RequestParam("file") MultipartFile file, @RequestParam("interestID") List interestID,@RequestBody User user) throws IOException {
+    public @ResponseBody String saveUser(@RequestParam("interestID") List interestID,@RequestBody User user) {
     	System.out.println(user);
     	System.out.println(interestID);   	
     	
@@ -53,23 +53,13 @@ public class UserController {
     		userInterestList.add(userInterest);
     		
     	}
-    	byte[] bytes;
-    	UserImage userImage = new UserImage();
-        if (!file.isEmpty()) {
-             bytes = file.getBytes();
-             userImage.setProfileImage(bytes);
-               
-              
-        }
+    	
     	 UserDetails userDetails=user.getUserDetails();
     	userDetails.setUser(user);
     	userDetails.setUpdateDetails(updateDetails);
     	user.setUserDetails(userDetails);
-    	
-    	user.setUserImage(userImage);
-    	user.setUpdateDetails(updateDetails);
-    
-    	user.setUserInterest(userInterestList);
+      	user.setUpdateDetails(updateDetails);
+       	user.setUserInterest(userInterestList);
     	userService.saveUser(user);
 		return null;
     }
@@ -95,28 +85,32 @@ public class UserController {
     
     
 	@RequestMapping(value="/uploadImage", method=RequestMethod.POST)
-    public void upload(@RequestParam("file") MultipartFile file, @RequestParam("username") String username) throws IOException {
+    public void upload(UserImage userImage,@RequestParam("file") MultipartFile file, @RequestParam("userID") Integer userID) throws IOException {
     	byte[] bytes;
-    	UserImage userImage = new UserImage();
-        if (!file.isEmpty()) {
-             bytes = file.getBytes();
-             userImage.setProfileImage(bytes);
-             userService.saveImage(userImage);    
-              
-        }
+    	System.out.println(userID);
+    	
+    	//userImage.setImageID(1);
+    	userImage.setUserID(userID);
+		if (!file.isEmpty()) {
+			bytes = file.getBytes();
 
-        System.out.println(String.format("receive %s from %s", file.getOriginalFilename(),username));
+			userImage.setProfileImage(bytes);
+		}
+       
+        userService.saveImage(userImage);    
+
+        System.out.println(String.format("receive %s from %s", file.getOriginalFilename(),userID));
     }
 	
 	
 	@RequestMapping(value="/getProfileImage", method=RequestMethod.GET,produces = MediaType.APPLICATION_JSON_VALUE)
-    public @ResponseBody List<UserImage> getProfileImage() {
+    public @ResponseBody List<UserImage> getProfileImage(@RequestParam("userID") Integer userID) {
 		
-		List<UserImage> userImageList=userService.getProfileImage();
+		List<UserImage> userImageList=userService.getProfileImage(userID);
 		List<UserImage> userImageList1=new ArrayList<UserImage>();
 		for(UserImage userImage:userImageList){
-			System.out.println(userImage.getImageID());
-			userImage.setUser(null);
+			//System.out.println(userImage.getImageID());
+			//userImage.setUser(null);
 			userImageList1.add(userImage);
 			System.out.println(userImage.getProfileImage());
 		}

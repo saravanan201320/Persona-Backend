@@ -1,6 +1,0 @@
-0:0:0:0:0:0:0:1 - - [08/Oct/2015:12:29:01 +0530] "GET /creative-backend/service/loginUser?emailId=saravanan20.ece@gmail.com&password=123 HTTP/1.1" 200 14
-0:0:0:0:0:0:0:1 - - [08/Oct/2015:12:29:14 +0530] "GET /creative-backend/service/loginUser?emailId=saravanan20.ece@gmail.com&password=123 HTTP/1.1" 200 14
-0:0:0:0:0:0:0:1 - - [08/Oct/2015:14:23:30 +0530] "GET /creative-backend/service/loginUser?emailId=saravanan20.ece@gmail.com&password=123 HTTP/1.1" 200 14
-0:0:0:0:0:0:0:1 - - [08/Oct/2015:14:23:30 +0530] "GET /creative-backend/service/loginUser?emailId=saravanan20.ece@gmail.com&password=123 HTTP/1.1" 200 14
-0:0:0:0:0:0:0:1 - - [08/Oct/2015:14:41:35 +0530] "GET /creative-backend/service/interests HTTP/1.1" 200 1068
-0:0:0:0:0:0:0:1 - - [08/Oct/2015:14:54:54 +0530] "GET /creative-backend/service/loginUser?emailId=saravanan20.ece@gmail.com&password=123 HTTP/1.1" 200 14

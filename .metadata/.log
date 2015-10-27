@@ -2308,3 +2308,1341 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-26 18:28:45.244
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 12:11:07.425
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 12:11:07.538
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 12:11:07.703
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 12:32:43.891
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 12:32:43.902
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 12:32:43.908
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 12:45:09.941
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 12:45:10.010
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 12:45:10.019
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.datatools.connectivity.sqm.core 4 4 2015-10-27 13:52:07.717
+!MESSAGE com.mysql.jdbc.CommunicationsException
+!STACK 0
+com.mysql.jdbc.CommunicationsException: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.SocketException
+MESSAGE: Software caused connection abort: recv failed
+
+STACKTRACE:
+
+java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at com.mysql.jdbc.util.ReadAheadInputStream.fill(ReadAheadInputStream.java:113)
+	at com.mysql.jdbc.util.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:160)
+	at com.mysql.jdbc.util.ReadAheadInputStream.read(ReadAheadInputStream.java:188)
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:1994)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2411)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2916)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3206)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1232)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.StatementAdapter.executeQuery(StatementAdapter.java:73)
+	at org.eclipse.datatools.enablement.mysql.catalog.loaders.MySqlTableLoader.createResultSet(MySqlTableLoader.java:151)
+	at org.eclipse.datatools.enablement.mysql.catalog.loaders.MySqlTableLoader.loadTables(MySqlTableLoader.java:82)
+	at org.eclipse.datatools.connectivity.sqm.core.rte.jdbc.JDBCSchema.loadTables(JDBCSchema.java:128)
+	at org.eclipse.datatools.connectivity.sqm.core.rte.jdbc.JDBCSchema.getTables(JDBCSchema.java:89)
+	at org.eclipse.datatools.modelbase.sql.schema.impl.SchemaImpl.eGet(SchemaImpl.java:597)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1011)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1003)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:998)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.vnode.ServerExplorerVNodeContentProviderNav.getSchemaChildren(ServerExplorerVNodeContentProviderNav.java:250)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.vnode.ServerExplorerVNodeContentProviderNav.displayTableNodeChildren(ServerExplorerVNodeContentProviderNav.java:187)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractOnDemandContentProviderNav.getChildren(AbstractOnDemandContentProviderNav.java:173)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractOnDemandContentProviderNav.getChildren(AbstractOnDemandContentProviderNav.java:243)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractLayoutProviderNav.getChildren(AbstractLayoutProviderNav.java:85)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.impl.ServerExplorerContentProviderNav.load(ServerExplorerContentProviderNav.java:153)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.loading.LoadingJob.run(LoadingJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 351 ms ago.
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2622)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2916)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3206)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1232)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.StatementAdapter.executeQuery(StatementAdapter.java:73)
+	at org.eclipse.datatools.enablement.mysql.catalog.loaders.MySqlTableLoader.createResultSet(MySqlTableLoader.java:151)
+	at org.eclipse.datatools.enablement.mysql.catalog.loaders.MySqlTableLoader.loadTables(MySqlTableLoader.java:82)
+	at org.eclipse.datatools.connectivity.sqm.core.rte.jdbc.JDBCSchema.loadTables(JDBCSchema.java:128)
+	at org.eclipse.datatools.connectivity.sqm.core.rte.jdbc.JDBCSchema.getTables(JDBCSchema.java:89)
+	at org.eclipse.datatools.modelbase.sql.schema.impl.SchemaImpl.eGet(SchemaImpl.java:597)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1011)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1003)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:998)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.vnode.ServerExplorerVNodeContentProviderNav.getSchemaChildren(ServerExplorerVNodeContentProviderNav.java:250)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.vnode.ServerExplorerVNodeContentProviderNav.displayTableNodeChildren(ServerExplorerVNodeContentProviderNav.java:187)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractOnDemandContentProviderNav.getChildren(AbstractOnDemandContentProviderNav.java:173)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractOnDemandContentProviderNav.getChildren(AbstractOnDemandContentProviderNav.java:243)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractLayoutProviderNav.getChildren(AbstractLayoutProviderNav.java:85)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.impl.ServerExplorerContentProviderNav.load(ServerExplorerContentProviderNav.java:153)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.loading.LoadingJob.run(LoadingJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 13:53:02.052
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 13:53:02.062
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 13:53:02.256
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 13:59:20.137
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 13:59:20.151
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 13:59:20.164
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 14:30:32.816
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 14:30:32.829
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 14:30:32.836
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 14:35:49.464
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 14:35:49.549
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 14:35:49.635
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 14:40:56.329
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 14:40:56.369
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 14:40:56.379
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 14:48:07.159
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 14:48:07.305
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 14:48:07.326
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 14:49:46.081
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 14:49:46.090
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 14:49:46.095
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 14:58:59.114
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 14:58:59.133
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 14:58:59.142
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.datatools.connectivity.sqm.core 4 4 2015-10-27 15:00:30.495
+!MESSAGE com.mysql.jdbc.exceptions.MySQLNonTransientConnectionException
+!STACK 0
+com.mysql.jdbc.exceptions.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.CommunicationsException
+MESSAGE: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.SocketException
+MESSAGE: Software caused connection abort: recv failed
+
+STACKTRACE:
+
+java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at com.mysql.jdbc.util.ReadAheadInputStream.fill(ReadAheadInputStream.java:113)
+	at com.mysql.jdbc.util.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:160)
+	at com.mysql.jdbc.util.ReadAheadInputStream.read(ReadAheadInputStream.java:188)
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:1994)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2411)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2916)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3206)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1232)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.StatementAdapter.executeQuery(StatementAdapter.java:73)
+	at org.eclipse.datatools.enablement.mysql.catalog.loaders.MySqlTableLoader.createResultSet(MySqlTableLoader.java:151)
+	at org.eclipse.datatools.enablement.mysql.catalog.loaders.MySqlTableLoader.loadTables(MySqlTableLoader.java:82)
+	at org.eclipse.datatools.connectivity.sqm.core.rte.jdbc.JDBCSchema.loadTables(JDBCSchema.java:128)
+	at org.eclipse.datatools.connectivity.sqm.core.rte.jdbc.JDBCSchema.getTables(JDBCSchema.java:89)
+	at org.eclipse.datatools.modelbase.sql.schema.impl.SchemaImpl.eGet(SchemaImpl.java:597)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1011)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1003)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:998)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.vnode.ServerExplorerVNodeContentProviderNav.getSchemaChildren(ServerExplorerVNodeContentProviderNav.java:250)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.vnode.ServerExplorerVNodeContentProviderNav.displayTableNodeChildren(ServerExplorerVNodeContentProviderNav.java:187)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractOnDemandContentProviderNav.getChildren(AbstractOnDemandContentProviderNav.java:173)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractOnDemandContentProviderNav.getChildren(AbstractOnDemandContentProviderNav.java:243)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractLayoutProviderNav.getChildren(AbstractLayoutProviderNav.java:85)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.impl.ServerExplorerContentProviderNav.load(ServerExplorerContentProviderNav.java:153)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.loading.LoadingJob.run(LoadingJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 351 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.CommunicationsException: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.SocketException
+MESSAGE: Software caused connection abort: recv failed
+
+STACKTRACE:
+
+java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at com.mysql.jdbc.util.ReadAheadInputStream.fill(ReadAheadInputStream.java:113)
+	at com.mysql.jdbc.util.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:160)
+	at com.mysql.jdbc.util.ReadAheadInputStream.read(ReadAheadInputStream.java:188)
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:1994)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2411)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2916)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3206)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1232)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.StatementAdapter.executeQuery(StatementAdapter.java:73)
+	at org.eclipse.datatools.enablement.mysql.catalog.loaders.MySqlTableLoader.createResultSet(MySqlTableLoader.java:151)
+	at org.eclipse.datatools.enablement.mysql.catalog.loaders.MySqlTableLoader.loadTables(MySqlTableLoader.java:82)
+	at org.eclipse.datatools.connectivity.sqm.core.rte.jdbc.JDBCSchema.loadTables(JDBCSchema.java:128)
+	at org.eclipse.datatools.connectivity.sqm.core.rte.jdbc.JDBCSchema.getTables(JDBCSchema.java:89)
+	at org.eclipse.datatools.modelbase.sql.schema.impl.SchemaImpl.eGet(SchemaImpl.java:597)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1011)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1003)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:998)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.vnode.ServerExplorerVNodeContentProviderNav.getSchemaChildren(ServerExplorerVNodeContentProviderNav.java:250)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.vnode.ServerExplorerVNodeContentProviderNav.displayTableNodeChildren(ServerExplorerVNodeContentProviderNav.java:187)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractOnDemandContentProviderNav.getChildren(AbstractOnDemandContentProviderNav.java:173)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractOnDemandContentProviderNav.getChildren(AbstractOnDemandContentProviderNav.java:243)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractLayoutProviderNav.getChildren(AbstractLayoutProviderNav.java:85)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.impl.ServerExplorerContentProviderNav.load(ServerExplorerContentProviderNav.java:153)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.loading.LoadingJob.run(LoadingJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 351 ms ago.
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2622)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2916)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3206)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1232)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.StatementAdapter.executeQuery(StatementAdapter.java:73)
+	at org.eclipse.datatools.enablement.mysql.catalog.loaders.MySqlTableLoader.createResultSet(MySqlTableLoader.java:151)
+	at org.eclipse.datatools.enablement.mysql.catalog.loaders.MySqlTableLoader.loadTables(MySqlTableLoader.java:82)
+	at org.eclipse.datatools.connectivity.sqm.core.rte.jdbc.JDBCSchema.loadTables(JDBCSchema.java:128)
+	at org.eclipse.datatools.connectivity.sqm.core.rte.jdbc.JDBCSchema.getTables(JDBCSchema.java:89)
+	at org.eclipse.datatools.modelbase.sql.schema.impl.SchemaImpl.eGet(SchemaImpl.java:597)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1011)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1003)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:998)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.vnode.ServerExplorerVNodeContentProviderNav.getSchemaChildren(ServerExplorerVNodeContentProviderNav.java:250)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.vnode.ServerExplorerVNodeContentProviderNav.displayTableNodeChildren(ServerExplorerVNodeContentProviderNav.java:187)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractOnDemandContentProviderNav.getChildren(AbstractOnDemandContentProviderNav.java:173)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractOnDemandContentProviderNav.getChildren(AbstractOnDemandContentProviderNav.java:243)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractLayoutProviderNav.getChildren(AbstractLayoutProviderNav.java:85)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.impl.ServerExplorerContentProviderNav.load(ServerExplorerContentProviderNav.java:153)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.loading.LoadingJob.run(LoadingJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+
+** END NESTED EXCEPTION **
+
+
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:888)
+	at com.mysql.jdbc.Connection.checkClosed(Connection.java:1932)
+	at com.mysql.jdbc.Connection.createStatement(Connection.java:3121)
+	at com.mysql.jdbc.Connection.createStatement(Connection.java:3103)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionAdapter.createStatement(ConnectionAdapter.java:56)
+	at org.eclipse.datatools.enablement.mysql.catalog.loaders.MySqlTableLoader.createResultSet(MySqlTableLoader.java:150)
+	at org.eclipse.datatools.enablement.mysql.catalog.loaders.MySqlTableLoader.loadTables(MySqlTableLoader.java:82)
+	at org.eclipse.datatools.connectivity.sqm.core.rte.jdbc.JDBCSchema.loadTables(JDBCSchema.java:128)
+	at org.eclipse.datatools.connectivity.sqm.core.rte.jdbc.JDBCSchema.getTables(JDBCSchema.java:89)
+	at org.eclipse.datatools.modelbase.sql.schema.impl.SchemaImpl.eGet(SchemaImpl.java:597)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1011)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1003)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:998)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.vnode.ServerExplorerVNodeContentProviderNav.getSchemaChildren(ServerExplorerVNodeContentProviderNav.java:250)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.vnode.ServerExplorerVNodeContentProviderNav.displayTableNodeChildren(ServerExplorerVNodeContentProviderNav.java:187)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractOnDemandContentProviderNav.getChildren(AbstractOnDemandContentProviderNav.java:173)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractOnDemandContentProviderNav.getChildren(AbstractOnDemandContentProviderNav.java:243)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractLayoutProviderNav.getChildren(AbstractLayoutProviderNav.java:85)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.impl.ServerExplorerContentProviderNav.load(ServerExplorerContentProviderNav.java:153)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.loading.LoadingJob.run(LoadingJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.datatools.connectivity.sqm.core 4 4 2015-10-27 15:00:36.915
+!MESSAGE com.mysql.jdbc.exceptions.MySQLNonTransientConnectionException
+!STACK 0
+com.mysql.jdbc.exceptions.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.CommunicationsException
+MESSAGE: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.SocketException
+MESSAGE: Software caused connection abort: recv failed
+
+STACKTRACE:
+
+java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at com.mysql.jdbc.util.ReadAheadInputStream.fill(ReadAheadInputStream.java:113)
+	at com.mysql.jdbc.util.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:160)
+	at com.mysql.jdbc.util.ReadAheadInputStream.read(ReadAheadInputStream.java:188)
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:1994)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2411)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2916)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3206)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1232)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.StatementAdapter.executeQuery(StatementAdapter.java:73)
+	at org.eclipse.datatools.enablement.mysql.catalog.loaders.MySqlTableLoader.createResultSet(MySqlTableLoader.java:151)
+	at org.eclipse.datatools.enablement.mysql.catalog.loaders.MySqlTableLoader.loadTables(MySqlTableLoader.java:82)
+	at org.eclipse.datatools.connectivity.sqm.core.rte.jdbc.JDBCSchema.loadTables(JDBCSchema.java:128)
+	at org.eclipse.datatools.connectivity.sqm.core.rte.jdbc.JDBCSchema.getTables(JDBCSchema.java:89)
+	at org.eclipse.datatools.modelbase.sql.schema.impl.SchemaImpl.eGet(SchemaImpl.java:597)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1011)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1003)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:998)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.vnode.ServerExplorerVNodeContentProviderNav.getSchemaChildren(ServerExplorerVNodeContentProviderNav.java:250)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.vnode.ServerExplorerVNodeContentProviderNav.displayTableNodeChildren(ServerExplorerVNodeContentProviderNav.java:187)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractOnDemandContentProviderNav.getChildren(AbstractOnDemandContentProviderNav.java:173)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractOnDemandContentProviderNav.getChildren(AbstractOnDemandContentProviderNav.java:243)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractLayoutProviderNav.getChildren(AbstractLayoutProviderNav.java:85)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.impl.ServerExplorerContentProviderNav.load(ServerExplorerContentProviderNav.java:153)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.loading.LoadingJob.run(LoadingJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 351 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.CommunicationsException: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.SocketException
+MESSAGE: Software caused connection abort: recv failed
+
+STACKTRACE:
+
+java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at com.mysql.jdbc.util.ReadAheadInputStream.fill(ReadAheadInputStream.java:113)
+	at com.mysql.jdbc.util.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:160)
+	at com.mysql.jdbc.util.ReadAheadInputStream.read(ReadAheadInputStream.java:188)
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:1994)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2411)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2916)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3206)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1232)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.StatementAdapter.executeQuery(StatementAdapter.java:73)
+	at org.eclipse.datatools.enablement.mysql.catalog.loaders.MySqlTableLoader.createResultSet(MySqlTableLoader.java:151)
+	at org.eclipse.datatools.enablement.mysql.catalog.loaders.MySqlTableLoader.loadTables(MySqlTableLoader.java:82)
+	at org.eclipse.datatools.connectivity.sqm.core.rte.jdbc.JDBCSchema.loadTables(JDBCSchema.java:128)
+	at org.eclipse.datatools.connectivity.sqm.core.rte.jdbc.JDBCSchema.getTables(JDBCSchema.java:89)
+	at org.eclipse.datatools.modelbase.sql.schema.impl.SchemaImpl.eGet(SchemaImpl.java:597)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1011)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1003)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:998)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.vnode.ServerExplorerVNodeContentProviderNav.getSchemaChildren(ServerExplorerVNodeContentProviderNav.java:250)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.vnode.ServerExplorerVNodeContentProviderNav.displayTableNodeChildren(ServerExplorerVNodeContentProviderNav.java:187)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractOnDemandContentProviderNav.getChildren(AbstractOnDemandContentProviderNav.java:173)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractOnDemandContentProviderNav.getChildren(AbstractOnDemandContentProviderNav.java:243)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractLayoutProviderNav.getChildren(AbstractLayoutProviderNav.java:85)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.impl.ServerExplorerContentProviderNav.load(ServerExplorerContentProviderNav.java:153)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.loading.LoadingJob.run(LoadingJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 351 ms ago.
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2622)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2916)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3206)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1232)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.StatementAdapter.executeQuery(StatementAdapter.java:73)
+	at org.eclipse.datatools.enablement.mysql.catalog.loaders.MySqlTableLoader.createResultSet(MySqlTableLoader.java:151)
+	at org.eclipse.datatools.enablement.mysql.catalog.loaders.MySqlTableLoader.loadTables(MySqlTableLoader.java:82)
+	at org.eclipse.datatools.connectivity.sqm.core.rte.jdbc.JDBCSchema.loadTables(JDBCSchema.java:128)
+	at org.eclipse.datatools.connectivity.sqm.core.rte.jdbc.JDBCSchema.getTables(JDBCSchema.java:89)
+	at org.eclipse.datatools.modelbase.sql.schema.impl.SchemaImpl.eGet(SchemaImpl.java:597)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1011)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1003)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:998)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.vnode.ServerExplorerVNodeContentProviderNav.getSchemaChildren(ServerExplorerVNodeContentProviderNav.java:250)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.vnode.ServerExplorerVNodeContentProviderNav.displayTableNodeChildren(ServerExplorerVNodeContentProviderNav.java:187)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractOnDemandContentProviderNav.getChildren(AbstractOnDemandContentProviderNav.java:173)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractOnDemandContentProviderNav.getChildren(AbstractOnDemandContentProviderNav.java:243)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractLayoutProviderNav.getChildren(AbstractLayoutProviderNav.java:85)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.impl.ServerExplorerContentProviderNav.load(ServerExplorerContentProviderNav.java:153)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.loading.LoadingJob.run(LoadingJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+
+** END NESTED EXCEPTION **
+
+
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:888)
+	at com.mysql.jdbc.Connection.checkClosed(Connection.java:1932)
+	at com.mysql.jdbc.Connection.createStatement(Connection.java:3121)
+	at com.mysql.jdbc.Connection.createStatement(Connection.java:3103)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionAdapter.createStatement(ConnectionAdapter.java:56)
+	at org.eclipse.datatools.enablement.mysql.catalog.loaders.MySqlTableLoader.createResultSet(MySqlTableLoader.java:150)
+	at org.eclipse.datatools.enablement.mysql.catalog.loaders.MySqlTableLoader.loadTables(MySqlTableLoader.java:82)
+	at org.eclipse.datatools.connectivity.sqm.core.rte.jdbc.JDBCSchema.loadTables(JDBCSchema.java:128)
+	at org.eclipse.datatools.connectivity.sqm.core.rte.jdbc.JDBCSchema.getTables(JDBCSchema.java:89)
+	at org.eclipse.datatools.modelbase.sql.schema.impl.SchemaImpl.eGet(SchemaImpl.java:597)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1011)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1003)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:998)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.vnode.ServerExplorerVNodeContentProviderNav.getSchemaChildren(ServerExplorerVNodeContentProviderNav.java:250)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.vnode.ServerExplorerVNodeContentProviderNav.displayTableNodeChildren(ServerExplorerVNodeContentProviderNav.java:187)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractOnDemandContentProviderNav.getChildren(AbstractOnDemandContentProviderNav.java:173)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractOnDemandContentProviderNav.getChildren(AbstractOnDemandContentProviderNav.java:243)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractLayoutProviderNav.getChildren(AbstractLayoutProviderNav.java:85)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.impl.ServerExplorerContentProviderNav.load(ServerExplorerContentProviderNav.java:153)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.loading.LoadingJob.run(LoadingJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.datatools.connectivity.sqm.core 4 4 2015-10-27 15:00:46.242
+!MESSAGE com.mysql.jdbc.exceptions.MySQLNonTransientConnectionException
+!STACK 0
+com.mysql.jdbc.exceptions.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.CommunicationsException
+MESSAGE: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.SocketException
+MESSAGE: Software caused connection abort: recv failed
+
+STACKTRACE:
+
+java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at com.mysql.jdbc.util.ReadAheadInputStream.fill(ReadAheadInputStream.java:113)
+	at com.mysql.jdbc.util.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:160)
+	at com.mysql.jdbc.util.ReadAheadInputStream.read(ReadAheadInputStream.java:188)
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:1994)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2411)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2916)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3206)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1232)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.StatementAdapter.executeQuery(StatementAdapter.java:73)
+	at org.eclipse.datatools.enablement.mysql.catalog.loaders.MySqlTableLoader.createResultSet(MySqlTableLoader.java:151)
+	at org.eclipse.datatools.enablement.mysql.catalog.loaders.MySqlTableLoader.loadTables(MySqlTableLoader.java:82)
+	at org.eclipse.datatools.connectivity.sqm.core.rte.jdbc.JDBCSchema.loadTables(JDBCSchema.java:128)
+	at org.eclipse.datatools.connectivity.sqm.core.rte.jdbc.JDBCSchema.getTables(JDBCSchema.java:89)
+	at org.eclipse.datatools.modelbase.sql.schema.impl.SchemaImpl.eGet(SchemaImpl.java:597)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1011)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1003)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:998)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.vnode.ServerExplorerVNodeContentProviderNav.getSchemaChildren(ServerExplorerVNodeContentProviderNav.java:250)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.vnode.ServerExplorerVNodeContentProviderNav.displayTableNodeChildren(ServerExplorerVNodeContentProviderNav.java:187)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractOnDemandContentProviderNav.getChildren(AbstractOnDemandContentProviderNav.java:173)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractOnDemandContentProviderNav.getChildren(AbstractOnDemandContentProviderNav.java:243)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractLayoutProviderNav.getChildren(AbstractLayoutProviderNav.java:85)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.impl.ServerExplorerContentProviderNav.load(ServerExplorerContentProviderNav.java:153)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.loading.LoadingJob.run(LoadingJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 351 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.CommunicationsException: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.SocketException
+MESSAGE: Software caused connection abort: recv failed
+
+STACKTRACE:
+
+java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at com.mysql.jdbc.util.ReadAheadInputStream.fill(ReadAheadInputStream.java:113)
+	at com.mysql.jdbc.util.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:160)
+	at com.mysql.jdbc.util.ReadAheadInputStream.read(ReadAheadInputStream.java:188)
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:1994)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2411)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2916)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3206)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1232)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.StatementAdapter.executeQuery(StatementAdapter.java:73)
+	at org.eclipse.datatools.enablement.mysql.catalog.loaders.MySqlTableLoader.createResultSet(MySqlTableLoader.java:151)
+	at org.eclipse.datatools.enablement.mysql.catalog.loaders.MySqlTableLoader.loadTables(MySqlTableLoader.java:82)
+	at org.eclipse.datatools.connectivity.sqm.core.rte.jdbc.JDBCSchema.loadTables(JDBCSchema.java:128)
+	at org.eclipse.datatools.connectivity.sqm.core.rte.jdbc.JDBCSchema.getTables(JDBCSchema.java:89)
+	at org.eclipse.datatools.modelbase.sql.schema.impl.SchemaImpl.eGet(SchemaImpl.java:597)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1011)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1003)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:998)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.vnode.ServerExplorerVNodeContentProviderNav.getSchemaChildren(ServerExplorerVNodeContentProviderNav.java:250)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.vnode.ServerExplorerVNodeContentProviderNav.displayTableNodeChildren(ServerExplorerVNodeContentProviderNav.java:187)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractOnDemandContentProviderNav.getChildren(AbstractOnDemandContentProviderNav.java:173)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractOnDemandContentProviderNav.getChildren(AbstractOnDemandContentProviderNav.java:243)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractLayoutProviderNav.getChildren(AbstractLayoutProviderNav.java:85)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.impl.ServerExplorerContentProviderNav.load(ServerExplorerContentProviderNav.java:153)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.loading.LoadingJob.run(LoadingJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 351 ms ago.
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2622)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2916)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3206)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1232)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.StatementAdapter.executeQuery(StatementAdapter.java:73)
+	at org.eclipse.datatools.enablement.mysql.catalog.loaders.MySqlTableLoader.createResultSet(MySqlTableLoader.java:151)
+	at org.eclipse.datatools.enablement.mysql.catalog.loaders.MySqlTableLoader.loadTables(MySqlTableLoader.java:82)
+	at org.eclipse.datatools.connectivity.sqm.core.rte.jdbc.JDBCSchema.loadTables(JDBCSchema.java:128)
+	at org.eclipse.datatools.connectivity.sqm.core.rte.jdbc.JDBCSchema.getTables(JDBCSchema.java:89)
+	at org.eclipse.datatools.modelbase.sql.schema.impl.SchemaImpl.eGet(SchemaImpl.java:597)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1011)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1003)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:998)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.vnode.ServerExplorerVNodeContentProviderNav.getSchemaChildren(ServerExplorerVNodeContentProviderNav.java:250)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.vnode.ServerExplorerVNodeContentProviderNav.displayTableNodeChildren(ServerExplorerVNodeContentProviderNav.java:187)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractOnDemandContentProviderNav.getChildren(AbstractOnDemandContentProviderNav.java:173)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractOnDemandContentProviderNav.getChildren(AbstractOnDemandContentProviderNav.java:243)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractLayoutProviderNav.getChildren(AbstractLayoutProviderNav.java:85)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.impl.ServerExplorerContentProviderNav.load(ServerExplorerContentProviderNav.java:153)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.loading.LoadingJob.run(LoadingJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+
+** END NESTED EXCEPTION **
+
+
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:888)
+	at com.mysql.jdbc.Connection.checkClosed(Connection.java:1932)
+	at com.mysql.jdbc.Connection.createStatement(Connection.java:3121)
+	at com.mysql.jdbc.Connection.createStatement(Connection.java:3103)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionAdapter.createStatement(ConnectionAdapter.java:56)
+	at org.eclipse.datatools.enablement.mysql.catalog.loaders.MySqlTableLoader.createResultSet(MySqlTableLoader.java:150)
+	at org.eclipse.datatools.enablement.mysql.catalog.loaders.MySqlTableLoader.loadTables(MySqlTableLoader.java:82)
+	at org.eclipse.datatools.connectivity.sqm.core.rte.jdbc.JDBCSchema.loadTables(JDBCSchema.java:128)
+	at org.eclipse.datatools.connectivity.sqm.core.rte.jdbc.JDBCSchema.getTables(JDBCSchema.java:89)
+	at org.eclipse.datatools.modelbase.sql.schema.impl.SchemaImpl.eGet(SchemaImpl.java:597)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1011)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1003)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:998)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.vnode.ServerExplorerVNodeContentProviderNav.getSchemaChildren(ServerExplorerVNodeContentProviderNav.java:250)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.vnode.ServerExplorerVNodeContentProviderNav.displayTableNodeChildren(ServerExplorerVNodeContentProviderNav.java:187)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractOnDemandContentProviderNav.getChildren(AbstractOnDemandContentProviderNav.java:173)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractOnDemandContentProviderNav.getChildren(AbstractOnDemandContentProviderNav.java:243)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractLayoutProviderNav.getChildren(AbstractLayoutProviderNav.java:85)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.impl.ServerExplorerContentProviderNav.load(ServerExplorerContentProviderNav.java:153)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.loading.LoadingJob.run(LoadingJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.datatools.connectivity.sqm.core 4 4 2015-10-27 15:00:58.278
+!MESSAGE com.mysql.jdbc.exceptions.MySQLNonTransientConnectionException
+!STACK 0
+com.mysql.jdbc.exceptions.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.CommunicationsException
+MESSAGE: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.SocketException
+MESSAGE: Software caused connection abort: recv failed
+
+STACKTRACE:
+
+java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at com.mysql.jdbc.util.ReadAheadInputStream.fill(ReadAheadInputStream.java:113)
+	at com.mysql.jdbc.util.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:160)
+	at com.mysql.jdbc.util.ReadAheadInputStream.read(ReadAheadInputStream.java:188)
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:1994)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2411)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2916)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3206)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1232)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.StatementAdapter.executeQuery(StatementAdapter.java:73)
+	at org.eclipse.datatools.enablement.mysql.catalog.loaders.MySqlTableLoader.createResultSet(MySqlTableLoader.java:151)
+	at org.eclipse.datatools.enablement.mysql.catalog.loaders.MySqlTableLoader.loadTables(MySqlTableLoader.java:82)
+	at org.eclipse.datatools.connectivity.sqm.core.rte.jdbc.JDBCSchema.loadTables(JDBCSchema.java:128)
+	at org.eclipse.datatools.connectivity.sqm.core.rte.jdbc.JDBCSchema.getTables(JDBCSchema.java:89)
+	at org.eclipse.datatools.modelbase.sql.schema.impl.SchemaImpl.eGet(SchemaImpl.java:597)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1011)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1003)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:998)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.vnode.ServerExplorerVNodeContentProviderNav.getSchemaChildren(ServerExplorerVNodeContentProviderNav.java:250)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.vnode.ServerExplorerVNodeContentProviderNav.displayTableNodeChildren(ServerExplorerVNodeContentProviderNav.java:187)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractOnDemandContentProviderNav.getChildren(AbstractOnDemandContentProviderNav.java:173)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractOnDemandContentProviderNav.getChildren(AbstractOnDemandContentProviderNav.java:243)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractLayoutProviderNav.getChildren(AbstractLayoutProviderNav.java:85)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.impl.ServerExplorerContentProviderNav.load(ServerExplorerContentProviderNav.java:153)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.loading.LoadingJob.run(LoadingJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 351 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.CommunicationsException: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.SocketException
+MESSAGE: Software caused connection abort: recv failed
+
+STACKTRACE:
+
+java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at com.mysql.jdbc.util.ReadAheadInputStream.fill(ReadAheadInputStream.java:113)
+	at com.mysql.jdbc.util.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:160)
+	at com.mysql.jdbc.util.ReadAheadInputStream.read(ReadAheadInputStream.java:188)
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:1994)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2411)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2916)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3206)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1232)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.StatementAdapter.executeQuery(StatementAdapter.java:73)
+	at org.eclipse.datatools.enablement.mysql.catalog.loaders.MySqlTableLoader.createResultSet(MySqlTableLoader.java:151)
+	at org.eclipse.datatools.enablement.mysql.catalog.loaders.MySqlTableLoader.loadTables(MySqlTableLoader.java:82)
+	at org.eclipse.datatools.connectivity.sqm.core.rte.jdbc.JDBCSchema.loadTables(JDBCSchema.java:128)
+	at org.eclipse.datatools.connectivity.sqm.core.rte.jdbc.JDBCSchema.getTables(JDBCSchema.java:89)
+	at org.eclipse.datatools.modelbase.sql.schema.impl.SchemaImpl.eGet(SchemaImpl.java:597)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1011)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1003)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:998)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.vnode.ServerExplorerVNodeContentProviderNav.getSchemaChildren(ServerExplorerVNodeContentProviderNav.java:250)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.vnode.ServerExplorerVNodeContentProviderNav.displayTableNodeChildren(ServerExplorerVNodeContentProviderNav.java:187)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractOnDemandContentProviderNav.getChildren(AbstractOnDemandContentProviderNav.java:173)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractOnDemandContentProviderNav.getChildren(AbstractOnDemandContentProviderNav.java:243)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractLayoutProviderNav.getChildren(AbstractLayoutProviderNav.java:85)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.impl.ServerExplorerContentProviderNav.load(ServerExplorerContentProviderNav.java:153)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.loading.LoadingJob.run(LoadingJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 351 ms ago.
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2622)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2916)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3206)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1232)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.StatementAdapter.executeQuery(StatementAdapter.java:73)
+	at org.eclipse.datatools.enablement.mysql.catalog.loaders.MySqlTableLoader.createResultSet(MySqlTableLoader.java:151)
+	at org.eclipse.datatools.enablement.mysql.catalog.loaders.MySqlTableLoader.loadTables(MySqlTableLoader.java:82)
+	at org.eclipse.datatools.connectivity.sqm.core.rte.jdbc.JDBCSchema.loadTables(JDBCSchema.java:128)
+	at org.eclipse.datatools.connectivity.sqm.core.rte.jdbc.JDBCSchema.getTables(JDBCSchema.java:89)
+	at org.eclipse.datatools.modelbase.sql.schema.impl.SchemaImpl.eGet(SchemaImpl.java:597)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1011)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1003)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:998)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.vnode.ServerExplorerVNodeContentProviderNav.getSchemaChildren(ServerExplorerVNodeContentProviderNav.java:250)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.vnode.ServerExplorerVNodeContentProviderNav.displayTableNodeChildren(ServerExplorerVNodeContentProviderNav.java:187)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractOnDemandContentProviderNav.getChildren(AbstractOnDemandContentProviderNav.java:173)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractOnDemandContentProviderNav.getChildren(AbstractOnDemandContentProviderNav.java:243)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractLayoutProviderNav.getChildren(AbstractLayoutProviderNav.java:85)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.impl.ServerExplorerContentProviderNav.load(ServerExplorerContentProviderNav.java:153)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.loading.LoadingJob.run(LoadingJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+
+** END NESTED EXCEPTION **
+
+
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:888)
+	at com.mysql.jdbc.Connection.checkClosed(Connection.java:1932)
+	at com.mysql.jdbc.Connection.createStatement(Connection.java:3121)
+	at com.mysql.jdbc.Connection.createStatement(Connection.java:3103)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionAdapter.createStatement(ConnectionAdapter.java:56)
+	at org.eclipse.datatools.enablement.mysql.catalog.loaders.MySqlTableLoader.createResultSet(MySqlTableLoader.java:150)
+	at org.eclipse.datatools.enablement.mysql.catalog.loaders.MySqlTableLoader.loadTables(MySqlTableLoader.java:82)
+	at org.eclipse.datatools.connectivity.sqm.core.rte.jdbc.JDBCSchema.loadTables(JDBCSchema.java:128)
+	at org.eclipse.datatools.connectivity.sqm.core.rte.jdbc.JDBCSchema.getTables(JDBCSchema.java:89)
+	at org.eclipse.datatools.modelbase.sql.schema.impl.SchemaImpl.eGet(SchemaImpl.java:597)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1011)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1003)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:998)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.vnode.ServerExplorerVNodeContentProviderNav.getSchemaChildren(ServerExplorerVNodeContentProviderNav.java:250)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.vnode.ServerExplorerVNodeContentProviderNav.displayViewsNodeChildren(ServerExplorerVNodeContentProviderNav.java:235)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractOnDemandContentProviderNav.getChildren(AbstractOnDemandContentProviderNav.java:193)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractOnDemandContentProviderNav.getChildren(AbstractOnDemandContentProviderNav.java:243)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.layout.AbstractLayoutProviderNav.getChildren(AbstractLayoutProviderNav.java:85)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.providers.content.impl.ServerExplorerContentProviderNav.load(ServerExplorerContentProviderNav.java:153)
+	at org.eclipse.datatools.connectivity.sqm.server.internal.ui.explorer.loading.LoadingJob.run(LoadingJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:06:27.382
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:06:27.397
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:06:27.405
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:08:35.795
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:08:35.808
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:08:35.939
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:10:19.514
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:10:19.529
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:10:19.538
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:14:53.140
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:14:53.153
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:14:53.161
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:15:15.420
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:15:15.430
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:15:15.436
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2015-10-27 15:17:42.187
+!MESSAGE cacheFile=file:/C:/Users/saravana.sivakumar/workspace/Creative-Backend/.metadata/.plugins/org.eclipse.wst.server.discovery/serverAdapterSitesDetails.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:20:26.420
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:20:26.459
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:20:27.597
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:21:14.392
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:21:14.408
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:21:14.417
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:25:57.630
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:25:57.667
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:25:57.679
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:28:41.952
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:28:41.965
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:28:41.971
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:33:58.750
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:33:58.766
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:33:58.773
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:35:37.406
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:35:37.420
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:35:37.427
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:35:42.616
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:35:42.628
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:35:42.646
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:37:04.426
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:37:04.445
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:37:04.457
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:38:18.761
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:38:18.776
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:38:18.784
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:38:51.151
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:38:51.166
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:38:51.173
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:40:20.329
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:40:20.343
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:40:20.351
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:42:36.729
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:42:36.768
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:42:36.774
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:44:22.536
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:44:22.580
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:44:22.588
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:45:12.235
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:45:12.248
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:45:12.255
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:45:39.910
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:45:39.926
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:45:39.933
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:48:05.118
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:48:05.130
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:48:05.136
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:48:13.521
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:48:13.536
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:48:13.544
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:50:08.887
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:50:08.902
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:50:08.910
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:50:30.837
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:50:30.850
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:50:30.856
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:51:26.217
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:51:26.231
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:51:26.241
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:52:19.060
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:52:19.074
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:52:19.081
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui 4 4 2015-10-27 15:53:29.716
+!MESSAGE Unable to process element: view in perspective extension: null
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:54:03.250
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:54:03.263
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:54:03.270
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:56:52.103
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:56:52.117
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 15:56:52.130
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:04:06.858
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:04:06.896
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:04:06.904
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:04:13.594
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:04:13.608
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:04:13.617
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:05:53.242
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:05:53.257
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:05:53.265
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:11:23.762
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:11:23.802
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:11:23.812
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2015-10-27 16:12:27.154
+!MESSAGE Error occured processing '/creative-backend/src/main/resources/spring/config/BeanLocations.xml'
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 20; columnNumber: 26; The prefix "tx" for element "tx:annotation-driven" is not bound.
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.springframework.ide.eclipse.core.io.xml.XercesDocumentLoader.loadDocument(XercesDocumentLoader.java:48)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:429)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:391)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansConfig$2.loadBeanDefinitions(BeansConfig.java:397)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansConfig$3.call(BeansConfig.java:456)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansConfig$3.call(BeansConfig.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:12:27.498
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:12:27.512
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:12:27.520
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:15:51.895
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:15:51.948
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:15:51.955
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:16:25.812
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:16:25.844
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:16:25.865
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:19:16.572
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:19:17.196
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:19:17.203
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:20:22.049
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:20:22.096
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:20:27.263
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:20:27.873
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:20:27.881
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:23:15.775
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:23:15.800
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:23:15.814
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:23:30.812
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:23:30.826
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:23:30.834
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:25:06.373
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:25:06.412
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:25:06.420
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:26:17.943
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:26:18.692
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:26:18.701
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:26:27.670
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:26:27.683
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:26:27.691
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:28:34.679
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:28:34.791
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:28:34.798
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:35:16.804
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:35:16.850
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:35:16.858
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:40:12.789
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:40:12.804
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 16:40:12.810
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 17:43:21.961
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 17:43:22.115
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 17:43:22.275
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 17:48:55.334
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 17:48:55.387
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 17:48:55.395
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 17:55:39.803
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 17:55:39.959
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 17:55:39.968
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 18:13:27.782
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 18:13:27.812
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 18:13:27.820
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 18:15:39.490
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 18:15:39.504
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 18:15:39.510
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 18:18:30.930
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 18:18:30.950
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 18:18:30.958
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 18:20:27.391
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 18:20:27.414
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 18:20:27.422
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 18:24:43.197
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 18:24:43.211
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 18:24:43.219
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 18:27:42.222
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 18:27:42.268
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-27 18:27:42.275
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!

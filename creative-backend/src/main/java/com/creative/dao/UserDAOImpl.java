@@ -2,10 +2,12 @@ package com.creative.dao;
 
 import java.util.List;
 
+import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.creative.model.User;
 import com.creative.model.UserImage;
@@ -45,14 +47,25 @@ public class UserDAOImpl implements UserDAO{
 	@Override
 	public void saveImage(UserImage userImage) {
 		// TODO Auto-generated method stub
-		getSession().saveOrUpdate(userImage);
+		System.out.println("DAO"+ + userImage.getUserID()+" "+userImage.getProfileImage());
+		List<UserImage> selectQuery = getSession().createQuery("from UserImage where userID=:userId").setParameter("userId", userImage.getUserID()).list();
+		System.out.println("selectQuery--->"+selectQuery.size());
+		if(selectQuery.size() <= 0){
+			getSession().save(userImage);
+		}
+		else{
+			
+			getSession().createQuery("update UserImage set profileImage=:profileImage where userID=:userID").setParameter("profileImage", userImage.getProfileImage()).setParameter("userID", userImage.getUserID()).executeUpdate();
+		}
+		
 		getSession().close();
 	}
 
 	@Override
-	public List<UserImage> getProfileImage() {
+	public List<UserImage> getProfileImage(int userId) {
 		// TODO Auto-generated method stub
-		List<UserImage> userProfileImage = getSession().createCriteria(UserImage.class).list();
+		List<UserImage> userProfileImage = getSession().createQuery("from UserImage where userID=:userId").setParameter("userId", userId).list();
+				
 	       getSession().close();
 	       
 		return userProfileImage;

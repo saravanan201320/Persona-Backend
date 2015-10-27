@@ -1,27 +1,25 @@
 package com.creative.model;
 
-import javax.persistence.CascadeType;
+import java.io.Serializable;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.OneToOne;
 import javax.persistence.Table;
-
-import com.fasterxml.jackson.annotation.JsonIgnore;
 @Entity
 @Table
-public class UserImage {
+public class UserImage implements Serializable{
 	@Id
 	@GeneratedValue
 	@Column
-	private Integer imageID;
+	private int imageID;
 	@Column(columnDefinition = "LONGBLOB")
 	private byte[] profileImage;
-	@OneToOne(cascade = CascadeType.ALL)
-	@JoinColumn(name = "userID")
-	private User user;
+	
+	@Column
+	private Integer userID;
 	public Integer getImageID() {
 		return imageID;
 	}
@@ -36,11 +34,12 @@ public class UserImage {
 	public void setProfileImage(byte[] profileImage) {
 		this.profileImage = profileImage;
 	}
-	public User getUser() {
-		return user;
+	public Integer getUserID() {
+		return userID;
 	}
-	public void setUser(User user) {
-		this.user = user;
+	public void setUserID(Integer userID) {
+		this.userID = userID;
 	}
+	
 	
 }

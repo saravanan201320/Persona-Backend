@@ -2,8 +2,11 @@ package com.creative.service;
 
 import java.util.List;
 
+
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.creative.dao.UserDAO;
 import com.creative.dao.UserInterestDAO;
@@ -12,6 +15,7 @@ import com.creative.model.User;
 import com.creative.model.UserImage;
 import com.creative.model.UserInterest;
 @Service
+@Transactional()
 public class UserServiceImpl implements UserService {
 
 	@Autowired
@@ -85,9 +89,9 @@ public class UserServiceImpl implements UserService {
 	}
 
 	@Override
-	public List<UserImage> getProfileImage() {
+	public List<UserImage> getProfileImage(int userId) {
 		// TODO Auto-generated method stub
-		return userDAO.getProfileImage();
+		return userDAO.getProfileImage(userId);
 	}
 
 	
