@@ -1,0 +1,44 @@
+package com.creative.model;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+
+@Entity
+@Table
+public class UserPostImage {
+	@Id
+	@GeneratedValue
+	@Column
+	private int userPostImageID;
+	@Column(columnDefinition = "LONGBLOB")
+	private byte[] image;
+	@ManyToOne(cascade = CascadeType.ALL)
+	@JoinColumn(name = "userPostId")
+	private UserPost userPost;
+	
+	public int getUserPostImageID() {
+		return userPostImageID;
+	}
+	public void setUserPostImageID(int userPostImageID) {
+		this.userPostImageID = userPostImageID;
+	}
+	public byte[] getImage() {
+		return image;
+	}
+	public void setImage(byte[] image) {
+		this.image = image;
+	}
+	public UserPost getUserPost() {
+		return userPost;
+	}
+	public void setUserPost(UserPost userPost) {
+		this.userPost = userPost;
+	}
+	
+}

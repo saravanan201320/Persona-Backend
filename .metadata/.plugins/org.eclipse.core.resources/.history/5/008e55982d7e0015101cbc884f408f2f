@@ -1,0 +1,124 @@
+package com.creative.service;
+
+import java.io.File;
+import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.multipart.MultipartFile;
+
+import com.creative.model.UpdateDetails;
+import com.creative.model.UserPost;
+import com.creative.model.UserPostImage;
+
+@RestController
+@RequestMapping("/service")
+public class UserPostController {
+	@Autowired
+	private UserPostService userPostService;
+	
+	List<MultipartFile> multiFiles=new ArrayList<MultipartFile>();
+	
+		@RequestMapping(value="/attachmentFile", method=RequestMethod.POST)
+		public void attachmentFile(@RequestParam("file") MultipartFile file){
+			System.out.println("file----->"+file);
+	    	byte[] bytes;
+
+			if (!file.isEmpty()) {
+				//bytes = file.getBytes();
+
+				multiFiles.add(file);
+			}
+	       
+	           
+			System.out.println(multiFiles);
+	        //System.out.println(String.format("receive %s from %s", file.getOriginalFilename()));
+		}
+	
+		@RequestMapping(value="/postAd", method=RequestMethod.POST)
+	    public @ResponseBody ResponseEntity<String> saveUserPost(HttpServletRequest request,UserPost userPost,@RequestParam("Category") String Category,@RequestParam("Sub_Category") String Sub_Category,
+	    		@RequestParam("userName") String userName,@RequestParam("userId") Integer userId,
+	    		@RequestParam("description") String description) throws IOException {
+		 System.out.println("FILES----------->"+multiFiles);
+		 
+		 
+		 DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+	    	Calendar cal = Calendar.getInstance();
+	    	UpdateDetails updateDetails=new UpdateDetails();
+	       	updateDetails.setCreatedBy(userName);
+	    	updateDetails.setCreatedTS(dateFormat.format(cal.getTime()));
+	    	updateDetails.setUpdatedBy(userName);
+	    	updateDetails.setUpdatedBy(dateFormat.format(cal.getTime()));
+	    	userPost.setUpdateDetails(updateDetails);
+			 userPost.setCategory(Category);
+			 userPost.setSub_Category(Sub_Category);
+			 userPost.setUserId(userId);
+			 userPost.setDescription(description);
+		 List<UserPostImage> userPostImageList=new ArrayList<UserPostImage>();
+		 System.out.println("File Length----------->"+multiFiles.size());
+		 for(MultipartFile file:multiFiles){
+			 System.out.println("files-----------=>"+file);
+			 System.out.println("file-----------=>"+file.getOriginalFilename());
+			 UserPostImage userPostImage= new UserPostImage();
+			 String distPath=request.getContextPath().toString();
+			 System.out.println("distPath"+distPath);
+			 byte[] bytes;
+			 if (!file.isEmpty()) {
+					bytes = file.getBytes();
+					File file1 = new File (distPath+"/temp", file.getOriginalFilename());
+					file.transferTo(file1);
+					System.out.println("bytes----------->"+bytes);
+					userPostImage.setImage(bytes);
+					userPostImage.setUserPost(userPost);
+					userPostImageList.add(userPostImage);
+					
+				}
+		 }
+		 
+//	 System.out.println("File Length----------->"+files.length);
+//		 for (int i=0;i<files.length;i++){
+//			 System.out.println("files-----------=>"+files[i].getOriginalFilename());
+//			 UserPostImage userPostImage= new UserPostImage();
+//			 byte[] bytes;
+//			 if (!files[i].isEmpty()) {
+//				 bytes = files[i].getBytes();
+//				 System.out.println("bytes----------->"+bytes);
+//				 userPostImage.setImage(bytes);
+//				 userPostImageList.add(userPostImage);
+//			 }
+//		 }
+		 userPost.setUserPostImage(userPostImageList);
+		 
+		
+		System.out.println("userPostImageList----------->"+userPostImageList);
+		 System.out.println("Category----------->"+Category);
+		 System.out.println("Sub_Category----------->"+Sub_Category);
+		 System.out.println("userName----------->"+userName);
+		 System.out.println("userId----------->"+userId);
+		 System.out.println("description----------->"+description);
+		// System.out.println("files----------->"+file+" "+userPost.getUserPostImage());
+	    //userPostService.saveUserPost(userPost);
+		 
+		 multiFiles.clear();
+		return null;
+	    }
+		
+		@RequestMapping(value="/postedAd", method=RequestMethod.GET)
+	    public @ResponseBody List<UserPost> userDetail() {
+	    	//System.out.println("----------->" +userService.getUsers(emailId, password));
+	       return userPostService.getUserPosts();
+	    }
+	
+}

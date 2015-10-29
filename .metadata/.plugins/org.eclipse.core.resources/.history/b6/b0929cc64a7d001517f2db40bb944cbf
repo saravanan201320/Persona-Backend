@@ -1,0 +1,14 @@
+package com.creative.model;
+
+import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+public class UserPostImage {
+	@Id
+	@GeneratedValue
+	@Column
+	private int userPostImageID;
+	@Column(columnDefinition = "LONGBLOB")
+	private byte[] image;
+}

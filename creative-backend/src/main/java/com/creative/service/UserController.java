@@ -86,6 +86,7 @@ public class UserController {
     
 	@RequestMapping(value="/uploadImage", method=RequestMethod.POST)
     public void upload(UserImage userImage,@RequestParam("file") MultipartFile file, @RequestParam("userID") Integer userID) throws IOException {
+		System.out.println("file----->"+file);
     	byte[] bytes;
     	System.out.println(userID);
     	
