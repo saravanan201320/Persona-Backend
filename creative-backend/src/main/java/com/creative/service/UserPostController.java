@@ -24,6 +24,8 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.commons.CommonsMultipartFile;
 
 import com.creative.model.UpdateDetails;
+import com.creative.model.UserDetails;
+import com.creative.model.UserInterest;
 import com.creative.model.UserPost;
 import com.creative.model.UserPostImage;
 
@@ -131,12 +133,27 @@ public class UserPostController {
 	    public @ResponseBody List<UserPost> userDetail() {
 	    	//System.out.println("----------->" +userService.getUsers(emailId, password));	
 			List<UserPost> userPostList=userPostService.getUserPosts();
+			
 			for(UserPost userPost:userPostList){
 				for(UserPostImage postImage:userPost.getUserPostImage()){
 					postImage.setUserPost(null);
 				}
 			}
 	       return userPostList;
+	    }
+		@RequestMapping(value="/userDetails", method=RequestMethod.GET)
+	    public @ResponseBody List<UserDetails> userDetails() {
+	    	//System.out.println("----------->" +userService.getUsers(emailId, password));	
+			
+			List<UserDetails> userDetailsList = userPostService.getUserDetails();
+			for(UserDetails userDetails:userDetailsList){
+				userDetails.getUser().setUserDetails(null);
+				for(UserInterest userInt:userDetails.getUser().getUserInterest()){
+					userInt.setUser(null);
+				}
+			}
+			//System.out.println(userDetailsList.size());
+	       return userDetailsList;
 	    }
 	
 }

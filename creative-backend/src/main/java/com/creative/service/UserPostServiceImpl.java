@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.creative.dao.UserPostDAO;
+import com.creative.model.UserDetails;
 import com.creative.model.UserInterest;
 import com.creative.model.UserPost;
 @Service
@@ -25,6 +26,13 @@ public class UserPostServiceImpl implements UserPostService {
 		List<UserPost> userPosts = userPostDAO.getUserPosts();
 		return userPosts;
 		
+	}
+
+	@Override
+	public List<UserDetails> getUserDetails() {
+		// TODO Auto-generated method stub
+		List<UserDetails> userDetails = userPostDAO.getUserDetails();
+		return userDetails;
 	}
 
 }

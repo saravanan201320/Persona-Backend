@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.creative.model.User;
+import com.creative.model.UserDetails;
 import com.creative.model.UserPost;
 
 @Repository
@@ -33,6 +34,13 @@ public class UserPostDAOImpl implements UserPostDAO{
 		List<UserPost> userPosts = getSession().createCriteria(UserPost.class).list();
 	       getSession().close();
 	       return userPosts;
+	}
+
+	@Override
+	public List<UserDetails> getUserDetails() {
+		List<UserDetails> userDetails = getSession().createCriteria(UserDetails.class).list();
+		// TODO Auto-generated method stub
+		return userDetails;
 	}
 	
 
